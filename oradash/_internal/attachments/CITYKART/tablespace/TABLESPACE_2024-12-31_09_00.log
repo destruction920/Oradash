@@ -1,0 +1,415 @@
+********************************************************************************************************************************************************************
+###TABLESPACE INFORMATION START###
+********************************************************************************************************************************************************************
+
+TABLESPACE_NAME        TOTAL_GB    USED_GB    FREE_GB	TMAXSIZE      USED%
+-------------------- ---------- ---------- ---------- ---------- ----------
+USERS			    542        523	   19	     544	 96
+GINOLAP 		    437        417	   20	     448	 95
+INDX			    235        218	   17	     256	 93
+UNDOTBS1		     85 	33	   52	      96	 39
+TEMP			     64 	21	   43	      64	 33
+SYSAUX			     32 	 8	   24	      32	 25
+SYSTEM			      2 	 1	    1	      32	 50
+GIN_TS_NOLOGGING	      2 	 1	    1	      32	 50
+GIN_TS_TX_DATA		      1 	 0	    1	      32	  0
+GIN_TS_SUMMARY		      1 	 1	    0	      32	100
+
+10 rows selected.
+
+
+no rows selected
+
+********************************************************************************************************************************************************************
+###TABLESPACE INFORMATION END###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###RMAN BACKUP INFORMATION START###
+********************************************************************************************************************************************************************
+
+COMMAND_ID	     START_TIME 	   TIME_TAKEN_DISPLAY	STATUS		INPUT_TYPE    OUTPUT_DEVICE_TYP INPUT_BYTES_DISPLAY  OUTPUT_BYTES_DISPLAY
+-------------------- --------------------- -------------------- --------------- ------------- ----------------- -------------------- --------------------
+2024-12-31T00:10:02  31-DEC-24 12:11:24 AM 07:33:38		COMPLETED	DB FULL       DISK		    1.31T	       294.93G
+2024-12-30T00:10:03  30-DEC-24 12:11:20 AM 07:36:25		COMPLETED	DB FULL       DISK		    1.31T	       294.81G
+2024-12-29T00:10:02  29-DEC-24 12:11:19 AM 07:38:46		COMPLETED	DB FULL       DISK		    1.31T	       294.32G
+2024-12-28T00:10:02  28-DEC-24 12:11:20 AM 07:50:58		COMPLETED	DB FULL       DISK		    1.31T	       294.13G
+2024-12-27T00:10:02  27-DEC-24 12:11:23 AM 07:25:57		COMPLETED	DB FULL       DISK		    1.31T	       293.72G
+2024-12-26T00:10:03  26-DEC-24 12:11:21 AM 07:32:33		COMPLETED	DB FULL       DISK		    1.31T	       293.66G
+2024-12-25T00:10:02  25-DEC-24 12:11:20 AM 07:31:56		COMPLETED	DB FULL       DISK		    1.31T	       293.26G
+2024-12-24T00:10:02  24-DEC-24 12:11:21 AM 07:39:06		COMPLETED	DB FULL       DISK		    1.31T	       292.96G
+2024-12-23T00:10:02  23-DEC-24 12:11:20 AM 07:32:34		COMPLETED	DB FULL       DISK		    1.31T	       292.87G
+2024-12-22T00:10:02  22-DEC-24 12:11:20 AM 07:30:59		COMPLETED	DB FULL       DISK		    1.31T	       292.28G
+
+10 rows selected.
+
+********************************************************************************************************************************************************************
+###RMAN BACKUP INFORMATION END###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+### SCHEMA SIZE INFORMATION START ###
+********************************************************************************************************************************************************************
+
+OWNER		     SCHEMA_SIZE_MB SCHEMA_SIZE_GB
+-------------------- -------------- --------------
+SSRK			  605070.81	    590.89
+MISRETAIL		  426478.75	    416.48
+REPORT			  144098.69	    140.72
+SYS			   39401.13	     38.48
+GINARCHIVE		   10634.69	     10.39
+AUDSYS			    3586.19	       3.5
+GINVIEW 		     730.13	       .71
+COGS_MIGRATION		     591.31	       .58
+GININTG 		     234.44	       .23
+APEX_040200			194	       .19
+MDSYS			      78.69	       .08
+XDB			       68.5	       .07
+MISCUSTOM		      47.25	       .05
+SYSTEM			      32.25	       .03
+MISVIEW 		      27.06	       .03
+MERCHANT		      16.38	       .02
+ORDDATA 		      16.13	       .02
+WMSYS			       7.19	       .01
+DVSYS			       4.44		 0
+CTXSYS			       3.81		 0
+GSMADMIN_INTERNAL	       1.38		 0
+DBSNMP				.81		 0
+GATEWAY 			.81		 0
+OUTLN				.56		 0
+ORDSYS				.44		 0
+OJVMSYS 			.38		 0
+SCOTT				.38		 0
+LBACSYS 			.31		 0
+GINCUSTOM			.13		 0
+
+29 rows selected.
+
+********************************************************************************************************************************************************************
+### SCHEMA SIZE INFORMATION END ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+### DATA DELETION  INFORMATION START ###
+********************************************************************************************************************************************************************
+
+OWNER SEGMENT_NAME		     SEGMENT_TY TABLE_NAME		       COLUMN_NAME	    TABLESPA SCHEMA_SIZE_MB SCHEMA_SIZE_GIG
+----- ------------------------------ ---------- ------------------------------ -------------------- -------- -------------- ---------------
+SSRK  SYS_LOB0000095443C00002$$      LOBSEGMENT DXRECEIVEDATA		       FILEDATA 	    USERS	    7318.13	       7.15
+SSRK  SYS_LOB0000511730C00008$$      LOBSEGMENT GDS2_EVENT_QUEUE_DATA	       BATCH_DATA	    USERS	    4658.13	       4.55
+SSRK  SYS_LOB0000095446C00002$$      LOBSEGMENT DXSENDDATA		       FILEDATA 	    USERS	    3084.13	       3.01
+SSRK  DXSENDDATA		     TABLE							    USERS		806		.79
+SSRK  PSITE_EMRTRANSACTION_LOG	     TABLE							    USERS		297		.29
+SSRK  DXRECEIVEDATA		     TABLE							    USERS		 72		.07
+SSRK  SYS_LOB0022742679C00008$$      LOBSEGMENT GDS2_EVENT_QUEUE_DATA_ARCHIVE  BATCH_DATA	    USERS	      39.19		.04
+SSRK  GDS2_EVENT_QUEUE_DATA	     TABLE							    USERS		  8		.01
+SSRK  ADMERRAUDIT		     TABLE							    USERS		.56		  0
+SSRK  GDS2_EVENT_QUEUE_DATA_ARCHIVE  TABLE							    USERS		.25		  0
+SSRK  GDS2_EVENT_TRACK_ARCHIVE	     TABLE							    USERS		.25		  0
+SSRK  GDS2_EVENT_QUEUE_ARCHIVE	     TABLE							    USERS		.25		  0
+SSRK  SYS_LOB0014515499C00018$$      LOBSEGMENT GDS2_WEBHOOK_FAILURE	       RESPONSE_MSG	    USERS		.13		  0
+SSRK  SYS_LOB0014515438C00010$$      LOBSEGMENT INBOUND_API_LOG 	       USER_AGENT	    USERS		.13		  0
+SSRK  SYS_LOB0014515379C00017$$      LOBSEGMENT GDS2_WEBHOOK_SUCCESS	       RESPONSE_MSG	    USERS		.13		  0
+
+15 rows selected.
+
+********************************************************************************************************************************************************************
+### DATA DELETION  INFORMATION END ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+### OBJECT INFORMATION ###
+********************************************************************************************************************************************************************
+
+SNAP_TIME   OBJECT_NAME 														     BLOCK_CHANGED
+----------- -------------------------------------------------------------------------------------------------------------------------------- -------------
+24-12-30 05 T$POSBILLDET_692															  73573936
+24-12-30 04 T$POSBILLDET_692															  62441600
+24-12-30 02 INX_T$STKANLDET_681_BAR_02														  46510464
+24-12-30 10 INX_T$STKANLDET_850_BAR_02														  35211888
+24-12-30 03 T$POSBILLDET_692															  18882272
+24-12-30 00 INX_T$STKMOVE_STKPT_85_BAR_02													  15710224
+24-12-30 22 PSITE_EVENT 															  15093280
+
+7 rows selected.
+
+********************************************************************************************************************************************************************
+### OBJECT INFORMATION ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###MOST MODIFIED TABLES###
+********************************************************************************************************************************************************************
+
+TABLE_NAME				    INSERTS TIMESTAMP LAST_ANALYZED
+---------------------------------------- ---------- --------- ---------------
+INVSTOCK				     366160 31-DEC-24 28-DEC-24
+INVSTOCK_LOG				     348617 31-DEC-24 30-DEC-24
+SALCSDET				     234749 31-DEC-24 28-DEC-24
+PSITE_POSBILLITEM			     191190 30-DEC-24 28-DEC-24
+T_STOCKTAKE				     175878 31-DEC-24 29-DEC-24
+OBJECT_SEGMENT				      77760 31-DEC-24 28-DEC-24
+PSITE_POSBILLMOP			      67749 30-DEC-24 28-DEC-24
+PSITE_POSBILL				      62790 30-DEC-24 28-DEC-24
+SALINVCHG_ITEM				      54968 30-DEC-24 28-DEC-24
+PSITE_GRCCHGITEM			      48170 31-DEC-24 28-DEC-24
+INVSTOCK_INTRA				      46414 30-DEC-24 28-DEC-24
+TEMP_SALINVDET_STAGING			      34397 30-DEC-24 28-DEC-24
+INVSTOCK_ONHAND_STOCKPOINT_AGG		      29592 31-DEC-24 28-DEC-24
+PSITE_STFITEM				      28733 30-DEC-24 28-DEC-24
+PSITE_WEB_EVENT_ARCHIVE 		      24648 30-DEC-24 28-DEC-24
+PSITE_GRCITEM				      24113 31-DEC-24 28-DEC-24
+PSITE_POSBILLITEM_PARK			      22933 31-DEC-24 30-DEC-24
+INVSTOCK_ONHAND_AGG			      21376 31-DEC-24 28-DEC-24
+INVSTOCK_ONHAND_INTRA_AGG		      21120 30-DEC-24 28-DEC-24
+SALINVDET				      20571 30-DEC-24 28-DEC-24
+PSITE_CUSTOMER_DIST			      19794 30-DEC-24 28-DEC-24
+PSITE_EVENT_ARCHIVE			      17273 31-DEC-24 28-DEC-24
+DXRECEIVE				      16710 31-DEC-24 27-DEC-24
+DXRECEIVEDATA				      16710 31-DEC-24 27-DEC-24
+PSITE_CUSTOMER				      16393 30-DEC-24 28-DEC-24
+INVDCDET				      11337 30-DEC-24 28-DEC-24
+DXSEND					      10991 31-DEC-24 27-DEC-24
+DXSENDDATA				      10991 31-DEC-24 27-DEC-24
+PSITE_ALLOC_ITEM			       9907 30-DEC-24 28-DEC-24
+PURORDCHG_ITEM				       9795 31-DEC-24 28-DEC-24
+FINCOSTTAG				       9010 31-DEC-24 28-DEC-24
+PSITE_POSSTLMAUDIT_POS			       8610 31-DEC-24 28-DEC-24
+PSITE_POSSTLMAUDIT_HO			       8589 31-DEC-24 28-DEC-24
+PSITE_POSBILLMOP_PARK			       7573 31-DEC-24 30-DEC-24
+FINPOST 				       7535 31-DEC-24 28-DEC-24
+PSITE_POSBILL_PARK			       7131 31-DEC-24 30-DEC-24
+SALORDDET				       7079 30-DEC-24 28-DEC-24
+TEMP_INVDCSO_CHECK			       7079 30-DEC-24 28-DEC-24
+T_PACKETREC				       4684 31-DEC-24 28-DEC-24
+PSITE_POSBILLITEMRETURN 		       3792 30-DEC-24 28-DEC-24
+PSITE_POSSTLMDETAIL			       3587 30-DEC-24 28-DEC-24
+INVTAKEDET				       3118 30-DEC-24 28-DEC-24
+PSITE_POSBILLCNADJ			       2948 30-DEC-24 28-DEC-24
+PSITE_POSBILLCN 			       2926 30-DEC-24 28-DEC-24
+PURORDDET				       2743 31-DEC-24 28-DEC-24
+POSJOURNAL_DETAIL			       2532 31-DEC-24 28-DEC-24
+PSITE_POSSTLMSTOCKRECO_POS		       2391 31-DEC-24 28-DEC-24
+FINPOST_CHECK				       2270 31-DEC-24 28-DEC-24
+PSITE_POSSTLMSESSION			       2158 30-DEC-24 28-DEC-24
+FINCOSTTAG_CHECK			       2118 31-DEC-24 28-DEC-24
+
+50 rows selected.
+
+
+TABLE_NAME				    UPDATES TIMESTAMP LAST_ANALYZED
+---------------------------------------- ---------- --------- ---------------
+INVSTOCK				     661839 31-DEC-24 28-DEC-24
+INVSTOCK_LOG				     348617 31-DEC-24 30-DEC-24
+INVSTOCK_ONHAND_AGG			     343166 31-DEC-24 28-DEC-24
+INVSTOCK_ONHAND_STOCKPOINT_AGG		     279848 31-DEC-24 28-DEC-24
+TEMP_INVDCSO_CHECK			     172845 30-DEC-24 28-DEC-24
+SALORDDET				      34444 30-DEC-24 28-DEC-24
+INVDCDET				      31724 30-DEC-24 28-DEC-24
+FINPOST 				      26441 31-DEC-24 28-DEC-24
+FINCOSTTAG_CHECK			      24157 31-DEC-24 28-DEC-24
+INVSTOCK_ONHAND_INTRA_AGG		      24155 30-DEC-24 28-DEC-24
+DXSEND					      21986 31-DEC-24 27-DEC-24
+FINPOST_CHECK				      17642 31-DEC-24 28-DEC-24
+DXRECEIVE				      16710 31-DEC-24 27-DEC-24
+INVDCMAIN				       9964 30-DEC-24 28-DEC-24
+SALINVDET				       6913 30-DEC-24 28-DEC-24
+PURORDDET				       5484 31-DEC-24 28-DEC-24
+MAILJOB 				       5136 31-DEC-24 30-DEC-24
+SALORDMAIN				       4765 30-DEC-24 28-DEC-24
+PSITE_PACKETITEM			       3284 30-DEC-24 28-DEC-24
+PSITE_POSBILLCN 			       2955 30-DEC-24 28-DEC-24
+INVITEM 				       2370 31-DEC-24 27-DEC-24
+INVGRCDET				       1505 30-DEC-24 28-DEC-24
+POSJOURNAL				       1266 31-DEC-24 28-DEC-24
+PURINVMAIN				       1215 30-DEC-24 28-DEC-24
+INVSTOCK_INTRA_LOG			       1122 30-DEC-24 30-DEC-24
+GRIDSTATE				       1006 30-DEC-24 27-DEC-24
+PSITE_POSSTLM					998 31-DEC-24 28-DEC-24
+PSITE_CUSTOMER					951 30-DEC-24 28-DEC-24
+PURINVCHG					944 30-DEC-24 28-DEC-24
+INVTAKEDET					892 30-DEC-24 28-DEC-24
+DXSESSIONLOG					845 31-DEC-24 27-DEC-24
+SALCSMAIN					826 31-DEC-24 28-DEC-24
+PURINVDET					781 30-DEC-24 28-DEC-24
+FINJRNMAIN					745 30-DEC-24 27-DEC-24
+ADMSITE 					661 31-DEC-24 30-DEC-24
+NFS$TASKS					642 31-DEC-24 30-DEC-24
+SALINVMAIN					631 30-DEC-24 28-DEC-24
+PSITE_PROMO_ASSIGN				625 30-DEC-24 28-DEC-24
+FINJRNDET					558 30-DEC-24 27-DEC-24
+INVBINSTOCK_ONHAND				496 30-DEC-24 28-DEC-24
+PSITE_POSBILL					439 30-DEC-24 28-DEC-24
+PLN_ENGINE_RUN_HISTORY				432 30-DEC-24 28-DEC-24
+INVPUTDET					355 30-DEC-24 27-DEC-24
+PURORDMAIN					333 31-DEC-24 28-DEC-24
+INVGRCMAIN					298 30-DEC-24 28-DEC-24
+INVLGTNOTE					294 30-DEC-24 27-DEC-24
+INVITEMLASTINWARD				287 30-DEC-24 28-DEC-24
+PURRTMAIN					249 30-DEC-24 28-DEC-24
+LOG_TAG_AGG					226 31-DEC-24 30-DEC-24
+INVGATEIN					203 30-DEC-24 27-DEC-24
+
+50 rows selected.
+
+
+TABLE_NAME				    DELETES TIMESTAMP LAST_ANALYZED
+---------------------------------------- ---------- --------- ---------------
+INVSTOCK_LOG				     348617 31-DEC-24 30-DEC-24
+PSITE_POSBILLITEM_PARK			      81459 31-DEC-24 30-DEC-24
+INVSTOCK				      31915 31-DEC-24 28-DEC-24
+PSITE_POSBILLMOP_PARK			      29956 31-DEC-24 30-DEC-24
+PSITE_POSBILL_PARK			      27988 31-DEC-24 30-DEC-24
+SALCSDET				      17629 31-DEC-24 28-DEC-24
+SALINVCHG_ITEM				      14852 30-DEC-24 28-DEC-24
+PURORDCHG_ITEM				       5683 31-DEC-24 28-DEC-24
+FINCOSTTAG				       2459 31-DEC-24 28-DEC-24
+INVTAKEDET				       2226 30-DEC-24 28-DEC-24
+STAGING_POSBILLITEM			       1437 31-DEC-24 30-DEC-24
+INVSTOCK_INTRA_LOG			       1122 30-DEC-24 30-DEC-24
+TEMP_ALLOC_ITEM 			       1082 30-DEC-24 28-DEC-24
+FINPOST 					529 31-DEC-24 28-DEC-24
+PSITE_APPUSER					519 30-DEC-24 30-DEC-24
+STAGING_POSBILLMOP				501 31-DEC-24 30-DEC-24
+INVPUTDET					491 30-DEC-24 27-DEC-24
+STAGING_POSBILL 				472 31-DEC-24 30-DEC-24
+PSITE_POSSTLMAUDIT_POS				399 31-DEC-24 28-DEC-24
+PSITE_POSSTLMAUDIT_HO				378 31-DEC-24 28-DEC-24
+PURORDCHG					373 31-DEC-24 28-DEC-24
+PSITE_POSSTLMDETAIL				320 30-DEC-24 28-DEC-24
+PSITE_POSBILLITEM				315 30-DEC-24 28-DEC-24
+POSJOURNAL_DETAIL				298 31-DEC-24 28-DEC-24
+PSITE_POSSTLMSTOCKRECO_POS			238 31-DEC-24 28-DEC-24
+PSITE_EVENT_TRACKING				230 31-DEC-24 30-DEC-24
+FINCOSTTAG_CHECK				214 31-DEC-24 28-DEC-24
+SALCSMOP					210 31-DEC-24 28-DEC-24
+PURINVCHG					206 30-DEC-24 28-DEC-24
+HRDEMP_OU					205 30-DEC-24 27-DEC-24
+FINPOST_CHECK					204 31-DEC-24 28-DEC-24
+PSITE_POSSTLMSESSION				198 30-DEC-24 28-DEC-24
+TEMP_ALLOC_CUSTOMER				180 31-DEC-24 30-DEC-24
+PURINVCHG_ITEM					160 30-DEC-24 28-DEC-24
+POSJOURNAL					149 31-DEC-24 28-DEC-24
+SALINVCHG					145 30-DEC-24 28-DEC-24
+STAGING_SETTLEMENTDATA				138 31-DEC-24 30-DEC-24
+PSITE_POSBILLMOP				135 30-DEC-24 28-DEC-24
+PSITE_POSSTLMSTOCKINFO_POS			124 31-DEC-24 28-DEC-24
+PSITE_POSSTLMSTOCKINFO_HO			117 31-DEC-24 28-DEC-24
+PURORDDET					116 31-DEC-24 28-DEC-24
+TEMP_PSITE_POSSTLM				115 31-DEC-24 30-DEC-24
+OLAP_CUBE_REFRESH_HISTORY			100 31-DEC-24 29-DEC-24
+PSITE_POSBILL					 97 30-DEC-24 28-DEC-24
+FINTAG						 95 30-DEC-24 27-DEC-24
+INVDCDET					 76 30-DEC-24 28-DEC-24
+PURORDSET					 67 31-DEC-24 28-DEC-24
+OLAP_CUBESET_REFRESH_STATUS			 64 31-DEC-24 30-DEC-24
+PSITE_WEB_EVENT 				 47 30-DEC-24 30-DEC-24
+PSITE_PTCBILL					 39 30-DEC-24 28-DEC-24
+
+50 rows selected.
+
+********************************************************************************************************************************************************************
+###MOST MODIFIED TABLES###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###MST_STATTAB LAST ANALYZED ###
+********************************************************************************************************************************************************************
+
+TABLE_NAME				 DBA_STATISTICS  DBA_TABLES
+---------------------------------------- --------------- ---------------
+INVSTOCK_ONHAND_STOCKPOINT_AGG		 28-DEC-24	 28-DEC-24
+INVSTOCK				 28-DEC-24	 28-DEC-24
+INVSTOCK_ONHAND_AGG			 28-DEC-24	 28-DEC-24
+PURINVCHG_ITEM				 28-DEC-24	 28-DEC-24
+PURINVCHG				 28-DEC-24	 28-DEC-24
+PURINVMAIN				 28-DEC-24	 28-DEC-24
+PURINVDET				 28-DEC-24	 28-DEC-24
+INVGRCCHG_ITEM				 28-DEC-24	 28-DEC-24
+INVGRCCHG				 28-DEC-24	 28-DEC-24
+INVGRCMAIN				 28-DEC-24	 28-DEC-24
+INVGRCDET				 28-DEC-24	 28-DEC-24
+SALCSDET				 28-DEC-24	 28-DEC-24
+SALCSMAIN				 28-DEC-24	 28-DEC-24
+PSITE_POSBILLITEM			 28-DEC-24	 28-DEC-24
+PSITE_POSBILL				 28-DEC-24	 28-DEC-24
+PSITE_POSBILLMOP			 28-DEC-24	 28-DEC-24
+FINPOST 				 28-DEC-24	 28-DEC-24
+INVDCDET				 28-DEC-24	 28-DEC-24
+TEMP_INVDCSO_CHECK			 28-DEC-24	 28-DEC-24
+TEMP_SALINVDET_STAGING			 28-DEC-24	 28-DEC-24
+INVDCMAIN				 28-DEC-24	 28-DEC-24
+SALORDDET				 28-DEC-24	 28-DEC-24
+SALORDMAIN				 28-DEC-24	 28-DEC-24
+SALINVCHG_ITEM				 28-DEC-24	 28-DEC-24
+SALINVCHG				 28-DEC-24	 28-DEC-24
+SALINVMAIN				 28-DEC-24	 28-DEC-24
+SALINVDET				 28-DEC-24	 28-DEC-24
+FINPOST_CHECK				 28-DEC-24	 28-DEC-24
+PSITE_GRCCHGITEM			 28-DEC-24	 28-DEC-24
+PSITE_GRCITEM				 28-DEC-24	 28-DEC-24
+PSITE_GRC				 28-DEC-24	 28-DEC-24
+PSITE_GRCCHG				 28-DEC-24	 28-DEC-24
+SALORDCHG_ITEM				 28-DEC-24	 28-DEC-24
+SALORDCHG				 28-DEC-24	 28-DEC-24
+INVITEMLASTINWARD			 28-DEC-24	 28-DEC-24
+TEMP_ALLOC_ITEM 			 28-DEC-24	 28-DEC-24
+PSITE_AUDITJOURNALITEM			 28-DEC-24	 28-DEC-24
+PSITE_AUDITJOURNAL			 28-DEC-24	 28-DEC-24
+PURRTCHG_ITEM				 28-DEC-24	 28-DEC-24
+PURRTCHG				 28-DEC-24	 28-DEC-24
+PURRTMAIN				 28-DEC-24	 28-DEC-24
+PURRTDET				 28-DEC-24	 28-DEC-24
+INVGRTCHG				 28-DEC-24	 28-DEC-24
+FINCOSTTAG_CHECK			 28-DEC-24	 28-DEC-24
+INVGRTCHG_ITEM				 28-DEC-24	 28-DEC-24
+INVGRTMAIN				 28-DEC-24	 28-DEC-24
+INVGRTDET				 28-DEC-24	 28-DEC-24
+FINCOSTTAG				 28-DEC-24	 28-DEC-24
+PSITE_ALLOC_ITEM			 28-DEC-24	 28-DEC-24
+PSITE_CUSTOMER				 28-DEC-24	 28-DEC-24
+INVBARCODELOG				 28-DEC-24	 28-DEC-24
+PRDLOTOPERATION 			 28-DEC-24	 28-DEC-24
+PRDBOMDET				 28-DEC-24	 28-DEC-24
+PSITE_CUSTOMER_DIST			 28-DEC-24	 28-DEC-24
+PRDLOTBOM				 28-DEC-24	 28-DEC-24
+INVSTOCK_INTRA				 28-DEC-24	 28-DEC-24
+INVBINSTOCK_ONHAND			 28-DEC-24	 28-DEC-24
+PRDWIPTRANS				 28-DEC-24	 28-DEC-24
+SALRTCHG_ITEM				 28-DEC-24	 28-DEC-24
+SALRTCHG				 28-DEC-24	 28-DEC-24
+SALRTMAIN				 28-DEC-24	 28-DEC-24
+SALRTDET				 28-DEC-24	 28-DEC-24
+INVSTOCK_ONHAND_INTRA_AGG		 28-DEC-24	 28-DEC-24
+PSITE_POSSTLM				 28-DEC-24	 28-DEC-24
+PROMO_ASSORTMENT_INCLUDE		 28-DEC-24	 28-DEC-24
+PROMO_ASSORTMENT_EXCLUDE		 28-DEC-24	 28-DEC-24
+INVPICKLISTDET				 28-DEC-24	 28-DEC-24
+PSITE_DELIVERYSLIPITEM			 28-DEC-24	 28-DEC-24
+INVPICKLISTMAIN 			 28-DEC-24	 28-DEC-24
+PURORDCHG_ITEM				 28-DEC-24	 28-DEC-24
+PURORDCHG				 28-DEC-24	 28-DEC-24
+PURORDMAIN				 28-DEC-24	 28-DEC-24
+PURORDDET				 28-DEC-24	 28-DEC-24
+PSITE_POSSTLMAUDIT_POS			 28-DEC-24	 28-DEC-24
+PSITE_POSSTLMAUDIT_HO			 28-DEC-24	 28-DEC-24
+PSITE_PACKETITEM			 28-DEC-24	 28-DEC-24
+PSITE_PACKET				 28-DEC-24	 28-DEC-24
+PSITE_SALESPERSON			 28-DEC-24	 28-DEC-24
+PSITE_DELIVERYSLIPITEMVOID		 28-DEC-24	 28-DEC-24
+INVSTOCK_LOG				 30-DEC-24	 30-DEC-24
+INT$STG_CREATEPO_ALL_FLD		 30-DEC-24	 30-DEC-24
+TEMP_ALLOC_CUSTOMER			 30-DEC-24	 30-DEC-24
+INT$STG_CREATEITEM_ALL_FLD		 30-DEC-24	 30-DEC-24
+PSITE_EMRSUBMIT_QUEUE			 30-DEC-24	 30-DEC-24
+
+84 rows selected.
+
+********************************************************************************************************************************************************************
+###MST_STATTAB LAST ANALYZED ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###Archive INFORMATION START###
+********************************************************************************************************************************************************************
+
+NAME		     SPACE_LIMIT SPACE_USED SPACE_RECLIMABLE NUMBER_OF_FILES
+-------------------- ----------- ---------- ---------------- ---------------
+/arch/			    1300       1040		 850	       12026
+
+********************************************************************************************************************************************************************
+###Archive INFORMATION END###
+********************************************************************************************************************************************************************

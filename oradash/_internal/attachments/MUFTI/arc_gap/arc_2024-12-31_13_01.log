@@ -1,0 +1,12 @@
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:01 IST 2024] - AT 192.168.2.9, CURRENT ARCHIVE LOG SEQ NO IS :  772956
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:01 IST 2024] - AT 192.168.2.14, CURRENT  APPLIED ARCHIVE LOG SEQ NO IS :  772926
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - AT 192.168.2.14, CURRENT AVAILABLE ARCHIVE LOG SEQ NO IS :  772956
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - AT 192.168.2.14, THE GAP IN APPLIED ARCHIVE IS : =   30
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .

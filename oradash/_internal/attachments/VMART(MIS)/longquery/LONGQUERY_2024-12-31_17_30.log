@@ -1,0 +1,335 @@
+GINMIS SERVER DISK SPACE START
+***********************************************************************************************************************
+Filesystem             Size  Used Avail Use% Mounted on
+/dev/mapper/rhel-root   92G  5.0G   82G   6% /
+devtmpfs                32G     0   32G   0% /dev
+tmpfs                   32G  1.7M   32G   1% /dev/shm
+tmpfs                   32G  329M   32G   2% /run
+tmpfs                   32G     0   32G   0% /sys/fs/cgroup
+/dev/sda2              922M  149M  710M  18% /boot
+/dev/mapper/rhel-u01   2.8T  1.9T  744G  73% /u01
+tmpfs                  6.3G     0  6.3G   0% /run/user/1001
+tmpfs                  6.3G   28K  6.3G   1% /run/user/0
+GINMIS SERVER DISK SPACE END
+***********************************************************************************************************************
+top - 17:30:03 up 89 days,  3:56,  2 users,  load average: 37.84, 38.42, 40.19
+Tasks: 683 total,  38 running, 645 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 95.4 us,  4.2 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.4 si,  0.0 st
+KiB Mem : 65808576 total,   372004 free, 18033596 used, 47402976 buff/cache
+KiB Swap: 12500172+total, 12070905+free,  4292664 used. 18609388 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+16020 oracle    20   0 30.355g 0.011t 0.011t R  87.5 18.7 784:05.18 ora_p00x_g+
+16034 oracle    20   0 30.347g 0.012t 0.012t R  62.5 19.3 794:13.54 ora_p014_g+
+16056 oracle    20   0 30.348g 6.071g 6.063g R  62.5  9.7 688:04.53 ora_p01d_g+
+15313 oracle    20   0 30.341g 1.170g 1.162g R  56.2  1.9  47:14.00 ora_p01p_g+
+15317 oracle    20   0 30.343g 1.183g 1.174g R  56.2  1.9  47:16.05 ora_p01r_g+
+16036 oracle    20   0 30.347g 0.012t 0.012t R  56.2 19.4 762:31.60 ora_p015_g+
+16058 oracle    20   0 30.346g 6.071g 6.064g R  56.2  9.7 674:09.04 ora_p01e_g+
+16024 oracle    20   0 30.348g 0.012t 0.012t R  50.0 18.8 777:02.53 ora_p00z_g+
+16028 oracle    20   0 30.351g 0.012t 0.012t R  50.0 18.9 809:36.73 ora_p011_g+
+16030 oracle    20   0 30.349g 0.012t 0.012t R  50.0 19.3 801:13.57 ora_p012_g+
+16032 oracle    20   0 30.347g 0.012t 0.012t R  50.0 19.3 797:47.35 ora_p013_g+
+16052 oracle    20   0 30.348g 9.560g 9.551g R  50.0 15.2 719:25.68 ora_p01b_g+
+16066 oracle    20   0 30.348g 4.960g 4.952g R  50.0  7.9 668:06.52 ora_p01i_g+
+********************************************************************************************************************************************************************
+###LONG RUNNING QUERY FOR MORE THAN ONE MINUTE###
+********************************************************************************************************************************************************************
+
+USERNAME			      SID    SERIAL# MINS_RUNNING
+------------------------------ ---------- ---------- ------------
+MISRETAIL			      411      17069   52.9333333
+MISRETAIL				9      33965	    39.95
+MISRETAIL			       10      11863	    39.95
+MISRETAIL			       28	 615	    39.95
+MISRETAIL			       32	7204	    39.95
+MISRETAIL			       38      26303	    39.95
+MISRETAIL			      103	3271	    39.95
+MISRETAIL			      109      24122	    39.95
+MISRETAIL			      124      53644	    39.95
+MISRETAIL			      127      63427	    39.95
+MISRETAIL			      206	6224	    39.95
+MISRETAIL			      210      56506	    39.95
+MISRETAIL			      213      16667	    39.95
+MISRETAIL			      218      26069	    39.95
+MISRETAIL			      294      17776	    39.95
+MISRETAIL			      296	6061	    39.95
+MISRETAIL			      313      41453	    39.95
+MISRETAIL			      388	2077	    39.95
+MISRETAIL			      399      27276	    39.95
+MISRETAIL			      401      38221	    39.95
+MISRETAIL			      414      21281	    39.95
+MISRETAIL			      419      50161	    39.95
+MISRETAIL			      485      28079	    39.95
+MISRETAIL			      500      51086	    39.95
+MISRETAIL			      509      20502	    39.95
+MISRETAIL			      591      19941	    39.95
+MISRETAIL			      607      65222	    39.95
+MISRETAIL			      688      59095	    39.95
+MISRETAIL			      706      29779	    39.95
+MISRETAIL			      770      42823	    39.95
+MISRETAIL			      782      31118	    39.95
+MISRETAIL			      788      18883	    39.95
+MISRETAIL			      804      18570	    39.95
+MISRETAIL			      878      33986	    39.95
+MISRETAIL			      879      35417	    39.95
+MISRETAIL			      895      24536	    39.95
+MISRETAIL			      902      17649	    39.95
+MISRETAIL			      907      19311	    39.95
+MISRETAIL			      970      45756	    39.95
+MISRETAIL			      978      51422	    39.95
+MISRETAIL			      982      41649	    39.95
+MISRETAIL			      984      39813	    39.95
+MISRETAIL			     1063      34283	    39.95
+MISRETAIL			     1065	4385	    39.95
+MISRETAIL			     1066      21567	    39.95
+MISRETAIL			     1071      39559	    39.95
+MISRETAIL			     1073      48024	    39.95
+MISRETAIL			     1081      21913	    39.95
+MISRETAIL			     1162	9337	    39.95
+MISRETAIL			     1169      42651	    39.95
+MISRETAIL			     1170      54563	    39.95
+MISRETAIL			     1175      12309	    39.95
+MISRETAIL			     1176      30453	    39.95
+MISRETAIL			     1257      40863	    39.95
+MISRETAIL			     1277	2391	    39.95
+MISRETAIL			     1278      37073	    39.95
+MISRETAIL			     1280      50933	    39.95
+MISRETAIL			     1281      19055	    39.95
+MISRETAIL			     1355      54587	    39.95
+MISRETAIL			     1359	3428	    39.95
+MISRETAIL			     1362      64089	    39.95
+MISRETAIL			     1363      15159	    39.95
+MISRETAIL			     1447	3778	    39.95
+MISRETAIL			     1458      51522	    39.95
+MISRETAIL			     1461	4898	    39.95
+MISRETAIL			     1474      63228	    39.95
+MISRETAIL			      602      37638   15.3666667
+MISRETAIL			     1074      44203   6.43333333
+MISRETAIL			      405      46963	     6.15
+MISRETAIL				7      48571   1.48333333
+
+70 rows selected.
+
+
+USERNAME   SID	 SERIA MINS_RUNNING PROGRAM		 SQL_ID        ADDRESS		TERMINAL	     ACTION		  EVENT 	       LOGON_TIME	    WAIT_CLASS
+---------- ----- ----- ------------ -------------------- ------------- ---------------- -------------------- -------------------- -------------------- -------------------- ---------------
+MISRETAIL  411	 17069	      52.95 dis51usr.exe	 9568vstqxnfpf 00000002F3DDD690 YASHRAJA_FPA				  direct path read tem 31-DEC-2024 16:36:13 User I/O
+MISRETAIL  10	 11863	 39.9666667 oracle@ginmis (P01M) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  103	 3271	 39.9666667 oracle@ginmis (P01N) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1063  34283	 39.9666667 oracle@ginmis (P013) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  1065  4385	 39.9666667 oracle@ginmis (P002) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1066  21567	 39.9666667 oracle@ginmis (P01S) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1071  39559	 39.9666667 oracle@ginmis (P01H) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  1073  48024	 39.9666667 oracle@ginmis (P007) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1081  21913	 39.9666667 oracle@ginmis (P00N) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  109	 24122	 39.9666667 oracle@ginmis (P00T) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1162  9337	 39.9666667 oracle@ginmis (P008) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1169  42651	 39.9666667 oracle@ginmis (P01I) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1170  54563	 39.9666667 oracle@ginmis (P014) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1175  12309	 39.9666667 oracle@ginmis (P00O) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1176  30453	 39.9666667 oracle@ginmis (P01R) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  124	 53644	 39.9666667 oracle@ginmis (P019) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  1257  40863	 39.9666667 oracle@ginmis (P01P) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  127	 63427	 39.9666667 oracle@ginmis (P00D) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1277  2391	 39.9666667 oracle@ginmis (P009) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1278  37073	 39.9666667 oracle@ginmis (P015) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1280  50933	 39.9666667 oracle@ginmis (P01J) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  1281  19055	 39.9666667 oracle@ginmis (P00P) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1355  54587	 39.9666667 oracle@ginmis (P01K) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1359  3428	 39.9666667 oracle@ginmis (P00Q) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1362  64089	 39.9666667 oracle@ginmis (P00A) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1363  15159	 39.9666667 oracle@ginmis (P016) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1447  3778	 39.9666667 oracle@ginmis (P01L) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  1458  51522	 39.9666667 oracle@ginmis (P00B) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  1461  4898	 39.9666667 oracle@ginmis (P017) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  1474  63228	 39.9666667 oracle@ginmis (P00R) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  206	 6224	 39.9666667 oracle@ginmis (P00U) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  210	 56506	 39.9666667 oracle@ginmis (P01A) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  213	 16667	 39.9666667 oracle@ginmis (P01Q) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  218	 26069	 39.9666667 oracle@ginmis (P00E) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  28	 615	 39.9666667 dis51usr.exe	 bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execute Repl 31-DEC-2024 16:37:18 Idle
+MISRETAIL  294	 17776	 39.9666667 oracle@ginmis (P00V) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  296	 6061	 39.9666667 oracle@ginmis (P01B) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  313	 41453	 39.9666667 oracle@ginmis (P00F) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  32	 7204	 39.9666667 oracle@ginmis (P018) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  38	 26303	 39.9666667 oracle@ginmis (P00S) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  388	 2077	 39.9666667 oracle@ginmis (P003) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  399	 27276	 39.9666667 oracle@ginmis (P01O) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  401	 38221	 39.9666667 oracle@ginmis (P00G) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  414	 21281	 39.9666667 oracle@ginmis (P00W) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  419	 50161	 39.9666667 oracle@ginmis (P01C) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  485	 28079	 39.9666667 oracle@ginmis (P00H) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  500	 51086	 39.9666667 oracle@ginmis (P01D) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  509	 20502	 39.9666667 oracle@ginmis (P00X) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  591	 19941	 39.9666667 oracle@ginmis (P00I) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  607	 65222	 39.9666667 oracle@ginmis (P00Y) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  688	 59095	 39.9666667 oracle@ginmis (P00J) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  706	 29779	 39.9666667 oracle@ginmis (P00Z) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  770	 42823	 39.9666667 oracle@ginmis (P004) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  782	 31118	 39.9666667 oracle@ginmis (P01E) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  788	 18883	 39.9666667 oracle@ginmis (P00K) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  804	 18570	 39.9666667 oracle@ginmis (P010) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  878	 33986	 39.9666667 oracle@ginmis (P000) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  879	 35417	 39.9666667 oracle@ginmis (P00L) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  895	 24536	 39.9666667 oracle@ginmis (P011) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  9	 33965	 39.9666667 oracle@ginmis (P00C) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  902	 17649	 39.9666667 oracle@ginmis (P01F) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  907	 19311	 39.9666667 oracle@ginmis (P005) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  970	 45756	 39.9666667 oracle@ginmis (P012) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch free	       31-DEC-2024 16:50:06 Other
+MISRETAIL  978	 51422	 39.9666667 oracle@ginmis (P01G) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  latch: cache buffers 31-DEC-2024 16:50:06 Concurrency
+MISRETAIL  982	 41649	 39.9666667 oracle@ginmis (P00M) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  984	 39813	 39.9666667 oracle@ginmis (P006) bks4zqxqs0sv8 0000000798ECF870 AAKANSHACHA-MER 			  PX Deq: Execution Ms 31-DEC-2024 16:50:06 Idle
+MISRETAIL  602	 37638	 15.3833333 oracle@ginmis (J001) as8bxss6afa9w 00000007B96561D0 UNKNOWN 	     STAGE_WISE_DATA_H	  SQL*Net message from 31-DEC-2024 17:14:41 Network
+MISRETAIL  1074  44203	       6.45 dis51usr.exe	 cmqz3xxvbvy81 00000000AA90DEE8 HARISHANKAR-SCM 			  direct path read     31-DEC-2024 16:29:48 User I/O
+MISRETAIL  405	 46963	 6.16666667 dis51usr.exe	 5zzr3sphygs7s 000000011EDF19C0 ANILKUMAR-PLA				  direct path write te 31-DEC-2024 17:21:10 User I/O
+MISRETAIL  7	 48571		1.5 dis51usr.exe	 cvpnp3qqgtwqn 000000075D8C0298 MUKESHKUMAR-ACC 			  direct path read     31-DEC-2024 09:21:05 User I/O
+
+70 rows selected.
+
+********************************************************************************************************************************************************************
+###LONG RUNNING QUERY FOR MORE THAN ONE MINUTE###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###LOCKING SESSION###
+********************************************************************************************************************************************************************
+
+no rows selected
+
+
+no rows selected
+
+********************************************************************************************************************************************************************
+###LOCKING SESSION###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###TEMP TABLESPACE ###
+********************************************************************************************************************************************************************
+
+TABLESPACE			 MB_TOTAL    MB_USED	MB_FREE
+------------------------------ ---------- ---------- ----------
+TEMP			       163839.922      39295 124544.922
+
+********************************************************************************************************************************************************************
+###TEMP TABLESPACE ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###SESSION USING TEMP  ###
+********************************************************************************************************************************************************************
+
+SID_SERIAL	USERNAME	OSUSER		     SPID      MODULE			 PROGRAM	    MB_USED TABLESPACE	    STATEMENTS
+--------------- --------------- -------------------- --------- ------------------------- --------------- ---------- --------------- ----------
+405,46963	MISRETAIL	anil.scm	     8253      Disco10, MISRETAIL	 oracle@ginmis	       2990 TEMP	    1
+411,17069	MISRETAIL	67613		     4990      Disco10, MISRETAIL	 oracle@ginmis	      36306 TEMP	    2
+686,40768	MISRETAIL	Administrator	     8387      TOAD 12.9.0.71		 oracle@ginmis		  1 TEMP	    1
+
+********************************************************************************************************************************************************************
+###SESSION USING TEMP  ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###PROGRAM WISE SESSIONS###
+********************************************************************************************************************************************************************
+
+PROGRAM 			    TOTAL_SESSIONS ACTIVE_SESSIONS INACTIVE_SESSIONS
+----------------------------------- -------------- --------------- -----------------
+dis51usr.exe				       126		 5		 121
+oracle@ginmis (P00V)				 1		 1		   0
+oracle@ginmis (P00F)				 1		 1		   0
+oracle@ginmis (P00Z)				 1		 1		   0
+oracle@ginmis (P000)				 1		 1		   0
+oracle@ginmis (P016)				 1		 1		   0
+oracle@ginmis (P017)				 1		 1		   0
+oracle@ginmis (P01Q)				 1		 1		   0
+oracle@ginmis (P00E)				 1		 1		   0
+oracle@ginmis (P01B)				 1		 1		   0
+oracle@ginmis (J000)				 1		 1		   0
+sqlplus@ginmis (TNS V1-V3)			 1		 1		   0
+oracle@ginmis (P013)				 1		 1		   0
+oracle@ginmis (P01H)				 1		 1		   0
+oracle@ginmis (P009)				 1		 1		   0
+oracle@ginmis (P00B)				 1		 1		   0
+oracle@ginmis (P01M)				 1		 1		   0
+oracle@ginmis (P00S)				 1		 1		   0
+oracle@ginmis (P01O)				 1		 1		   0
+oracle@ginmis (P00W)				 1		 1		   0
+oracle@ginmis (J001)				 1		 1		   0
+oracle@ginmis (P00Y)				 1		 1		   0
+oracle@ginmis (P01E)				 1		 1		   0
+oracle@ginmis (P011)				 1		 1		   0
+oracle@ginmis (P014)				 1		 1		   0
+oracle@ginmis (P015)				 1		 1		   0
+oracle@ginmis (P01K)				 1		 1		   0
+oracle@ginmis (P00A)				 1		 1		   0
+oracle@ginmis (P00R)				 1		 1		   0
+oracle@ginmis (P01A)				 1		 1		   0
+oracle@ginmis (P00X)				 1		 1		   0
+oracle@ginmis (P00L)				 1		 1		   0
+oracle@ginmis (P01S)				 1		 1		   0
+oracle@ginmis (P007)				 1		 1		   0
+oracle@ginmis (P00O)				 1		 1		   0
+oracle@ginmis (P01P)				 1		 1		   0
+oracle@ginmis (P00Q)				 1		 1		   0
+oracle@ginmis (P01N)				 1		 1		   0
+oracle@ginmis (P00D)				 1		 1		   0
+oracle@ginmis (P00I)				 1		 1		   0
+oracle@ginmis (P00M)				 1		 1		   0
+oracle@ginmis (P01I)				 1		 1		   0
+oracle@ginmis (P00C)				 1		 1		   0
+oracle@ginmis (P00T)				 1		 1		   0
+oracle@ginmis (P019)				 1		 1		   0
+oracle@ginmis (P00U)				 1		 1		   0
+oracle@ginmis (P003)				 1		 1		   0
+oracle@ginmis (P00G)				 1		 1		   0
+oracle@ginmis (P00J)				 1		 1		   0
+oracle@ginmis (P004)				 1		 1		   0
+oracle@ginmis (P010)				 1		 1		   0
+oracle@ginmis (P01F)				 1		 1		   0
+oracle@ginmis (P005)				 1		 1		   0
+oracle@ginmis (P002)				 1		 1		   0
+oracle@ginmis (P00N)				 1		 1		   0
+oracle@ginmis (P01J)				 1		 1		   0
+oracle@ginmis (P01D)				 1		 1		   0
+oracle@ginmis (J002)				 1		 1		   0
+oracle@ginmis (J003)				 1		 1		   0
+oracle@ginmis (P012)				 1		 1		   0
+oracle@ginmis (P01R)				 1		 1		   0
+oracle@ginmis (P00P)				 1		 1		   0
+oracle@ginmis (P01L)				 1		 1		   0
+oracle@ginmis (P018)				 1		 1		   0
+oracle@ginmis (P01C)				 1		 1		   0
+oracle@ginmis (P00H)				 1		 1		   0
+oracle@ginmis (P00K)				 1		 1		   0
+oracle@ginmis (P01G)				 1		 1		   0
+oracle@ginmis (P006)				 1		 1		   0
+oracle@ginmis (P008)				 1		 1		   0
+Toad.exe					 2		 0		   2
+w3wp.exe					 1		 0		   1
+toad.exe					 1		 0		   1
+
+73 rows selected.
+
+********************************************************************************************************************************************************************
+###PROGRAM WISE SESSIONS###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###TOP CPU CONSUMING SESSION(PROGRAM WISE) START###
+********************************************************************************************************************************************************************
+
+      RANK	  SID	 SERIAL# PROGRAM		 CPUMINS LOGON_TIME  ACTION		  EVENT 	       TERMINAL   WAIT_CLASS
+---------- ---------- ---------- -------------------- ---------- ----------- -------------------- -------------------- ---------- ---------------
+	 1	  675	    2981 oracle@ginmis (MMNL)	  241.01 03-OCT-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 2	  578	    2410 oracle@ginmis (MMON)	  172.85 03-OCT-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 3	  865	   31211 oracle@ginmis (DBRM)	   67.81 03-OCT-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 4	  898	   56169 dis51usr.exe		    45.9 31-DEC-2024			  SQL*Net message from PAWAN-IT   Idle
+	 5	   98	    2382 oracle@ginmis (CJQ0)	   33.14 03-OCT-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 6	  611	   52328 dis51usr.exe		   24.06 31-DEC-2024			  SQL*Net message from SANTOSHKR- Idle
+	 7	 1265	    9974 dis51usr.exe		   13.32 31-DEC-2024			  SQL*Net message from TANJEEN-HO Idle
+	 8	 1068	   44373 dis51usr.exe		   11.11 31-DEC-2024			  SQL*Net message from SHASHI-FOO Idle
+	 9	  389	   18595 dis51usr.exe		   10.73 30-DEC-2024			  SQL*Net message from PRASHANT   Idle
+	10	   97	   58705 oracle@ginmis (SMON)	    9.63 03-OCT-2024			  smon timer	       UNKNOWN	  Idle
+
+10 rows selected.
+
+********************************************************************************************************************************************************************
+###TOP CPU CONSUMING SESSION(PROGRAM WISE) END###
+********************************************************************************************************************************************************************

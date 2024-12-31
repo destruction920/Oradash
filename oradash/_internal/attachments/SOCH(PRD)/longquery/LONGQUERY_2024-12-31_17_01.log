@@ -1,0 +1,287 @@
+PRODUCTION SERVER DISK SPACE START
+***********************************************************************************************************************
+Filesystem                       Size  Used Avail Use% Mounted on
+/dev/mapper/rhel_sochprd-root    148G  6.1G  134G   5% /
+devtmpfs                          63G     0   63G   0% /dev
+tmpfs                             63G     0   63G   0% /dev/shm
+tmpfs                             63G  1.7G   62G   3% /run
+tmpfs                             63G     0   63G   0% /sys/fs/cgroup
+/dev/sdb2                        1.7T  914G  653G  59% /u02
+/dev/sda2                        976M  142M  768M  16% /boot
+/dev/sda1                       1022M  9.8M 1013M   1% /boot/efi
+/dev/sdb1                        1.9T  1.2T  607G  66% /u01
+/dev/mapper/rhel_sochprd-backup  2.2T  1.4T  708G  67% /backup
+/dev/mapper/rhel_sochprd-arch   1008G  792G  165G  83% /arch
+tmpfs                             13G   32K   13G   1% /run/user/1001
+tmpfs                             13G     0   13G   0% /run/user/0
+PRODUCTION SERVER DISK SPACE END
+***********************************************************************************************************************
+BACKUP SERVER DISK SPACE START
+***********************************************************************************************************************
+Filesystem               Size  Used Avail Use% Mounted on
+/dev/mapper/rhel-root    148G  6.2G  134G   5% /
+devtmpfs                  63G     0   63G   0% /dev
+tmpfs                     63G     0   63G   0% /dev/shm
+tmpfs                     63G  1.9G   61G   3% /run
+tmpfs                     63G     0   63G   0% /sys/fs/cgroup
+/dev/sda2                976M  142M  768M  16% /boot
+/dev/sda1               1022M  9.8M 1013M   1% /boot/efi
+/dev/sdb1                1.9T  1.1T  687G  62% /u01
+/dev/sdb2                1.7T  623G  944G  40% /u02
+/dev/mapper/rhel-arch   1008G  792G  165G  83% /arch
+/dev/mapper/rhel-backup  2.2T  1.4T  763G  65% /backup
+tmpfs                     13G   40K   13G   1% /run/user/1001
+/dev/sdc1                1.9T  1.8T   81G  96% /run/media/oracle/GINBKUP
+BACKUP SERVER DISK SPACE END
+***********************************************************************************************************************
+top - 17:01:01 up 79 days,  5:01,  3 users,  load average: 6.97, 4.98, 4.39
+Tasks: 611 total,  11 running, 600 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.8 us,  4.4 sy,  0.0 ni, 60.7 id,  6.6 wa,  0.0 hi,  0.5 si,  0.0 st
+KiB Mem : 13151473+total,   672020 free, 20186320 used, 11065640+buff/cache
+KiB Swap: 13421772+total, 12853361+free,  5684112 used. 52140936 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+29148 oracle    20   0 60.452g 3.571g 3.448g R 100.0  2.8  17:57.76 oracle_291+
+31688 oracle    20   0 60.358g 4.150g 4.122g R 100.0  3.3   0:29.20 oracle_316+
+32333 oracle    20   0 60.331g 1.020g 1.016g R 100.0  0.8   0:25.93 oracle_323+
+32356 oracle    20   0 60.468g 2.683g 2.555g R 100.0  2.1   0:10.74 oracle_323+
+  422 oracle    20   0 60.436g 883088 776048 R  81.2  0.7   0:03.44 oracle_422+
+  547 oracle    20   0  180392   4528   3580 R  81.2  0.0   0:00.14 ssh
+  541 oracle    20   0  118044   1652   1064 R  56.2  0.0   0:00.09 rsync
+32493 oracle    20   0 60.483g 6.182g 6.033g R  43.8  4.9   0:37.52 oracle_324+
+32341 oracle    20   0 60.333g 2.228g 2.222g R  31.2  1.8   0:11.71 oracle_323+
+  141 root      20   0       0      0      0 R  25.0  0.0   2272:15 kswapd0
+  568 oracle    20   0  158132   2492   1480 R   6.2  0.0   0:00.01 top
+  579 oracle    20   0  102636  15184  10904 S   6.2  0.0   0:00.01 sqlplus
+32562 oracle    20   0 60.624g 1.942g 1.747g S   6.2  1.5   0:05.44 oracle_325+
+********************************************************************************************************************************************************************
+###LONG RUNNING QUERY FOR MORE THAN ONE MINUTE###
+********************************************************************************************************************************************************************
+
+USERNAME			      SID    SERIAL# MINS_RUNNING
+------------------------------ ---------- ---------- ------------
+MDRL				      524      31124   18.0666667
+MDRL				      134	9170	     1.75
+
+
+USERNAME   SID	 SERIA MINS_RUNNING PROGRAM		 SQL_ID        ADDRESS		TERMINAL	     ACTION		  EVENT 	       LOGON_TIME	    WAIT_CLASS
+---------- ----- ----- ------------ -------------------- ------------- ---------------- -------------------- -------------------- -------------------- -------------------- ---------------
+MDRL	   524	 31124	 18.2166667 sqlplus.exe 	 c5mnyta8arrx1 00000006EA1E6FC8 MD-BLR-SVR-AS3				  db file sequential r 31-DEC-2024 16:42:57 User I/O
+
+********************************************************************************************************************************************************************
+###LONG RUNNING QUERY FOR MORE THAN ONE MINUTE###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###LOCKING SESSION###
+********************************************************************************************************************************************************************
+
+no rows selected
+
+
+no rows selected
+
+********************************************************************************************************************************************************************
+###LOCKING SESSION###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###TEMP TABLESPACE ###
+********************************************************************************************************************************************************************
+
+TABLESPACE			 MB_TOTAL    MB_USED	MB_FREE
+------------------------------ ---------- ---------- ----------
+TEMP			       65535.9688	4059 61476.9688
+
+********************************************************************************************************************************************************************
+###TEMP TABLESPACE ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###SESSION USING TEMP  ###
+********************************************************************************************************************************************************************
+
+SID_SERIAL	USERNAME	OSUSER		     SPID      MODULE			 PROGRAM	    MB_USED TABLESPACE	    STATEMENTS
+--------------- --------------- -------------------- --------- ------------------------- --------------- ---------- --------------- ----------
+1101,40172	MDRL		SYSTEM		     32251     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+1165,15998	MDRL		SYSTEM		     32253     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+1292,33956	MDRL		MD-BLR-SVR-AS3$      31890     Ginesys.API		 oracle@SOCHPRD 	  1 TEMP	    1
+1297,48407	MDRL		biadmin 	     32564     Microsoft.Mashup.Containe oracle@SOCHPRD        1162 TEMP	    1
+133,37739	MDRL		SYSTEM		     32350     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+1352,11940	MDRL		MD-BLR-SVR-AS3$      388       Ginesys.API		 oracle@SOCHPRD 	  1 TEMP	    1
+141,44114	MDRL		MD-BLR-SVR-AS3$      32333     Ginesys.API		 oracle@SOCHPRD 	  1 TEMP	    1
+1411,44891	MDRL		SYSTEM		     32343     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+1484,61432	MDRL		SYSTEM		     32345     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+207,24572	MDRL		SYSTEM		     32337     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+263,10922	MDRL		itadmin 	     29042     TOAD 12.9.0.71		 oracle@SOCHPRD 	  1 TEMP	    1
+325,26321	MDRL		SYSTEM		     31205     w3wp.exe 		 oracle@SOCHPRD 	  6 TEMP	    6
+390,51327	MDRL		SYSTEM		     31688     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+397,5779	MDRL		MD-BLR-SVR-AS3$      424       DataSync.API		 oracle@SOCHPRD 	  1 TEMP	    1
+398,64359	MDRL		SYSTEM		     32354     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+400,33531	MDRL		SYSTEM		     32339     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+463,49848	MDRL		SYSTEM		     32303     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+518,22369	MDRL		SYSTEM		     31690     w3wp.exe 		 oracle@SOCHPRD 	  6 TEMP	    6
+584,58720	MDRL		SYSTEM		     32356     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+589,6204	MDRL		SYSTEM		     31692     w3wp.exe 		 oracle@SOCHPRD 	  6 TEMP	    6
+65,36696	MDRL		arvindv 	     28898     Microsoft.Mashup.Containe oracle@SOCHPRD        2210 TEMP	    1
+67,50544	MDRL		SYSTEM		     32347     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+714,19853	MDRL		SYSTEM		     32360     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+78,31885	MDRL		SYSTEM		     31696     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+780,2730	MDRL		SYSTEM		     32301     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+784,1256	MDRL		MD-BLR-SVR-AS3$      405       DataSync.API		 oracle@SOCHPRD 	  1 TEMP	    1
+79,32632	MDRL		MD-BLR-SVR-AS3$      415       DataSync.API		 oracle@SOCHPRD 	  1 TEMP	    1
+837,56313	GININTG 	sadmin		     28858     JDBC Thin Client 	 oracle@SOCHPRD 	  1 TEMP	    1
+903,51790	MDRL		biadmin 	     32469     Microsoft.Mashup.Containe oracle@SOCHPRD 	628 TEMP	    1
+906,42095	MDRL		SYSTEM		     32297     GinApps.Scheduler.exe	 oracle@SOCHPRD 	  1 TEMP	    1
+912,11150	MDRL		SYSTEM		     31694     w3wp.exe 		 oracle@SOCHPRD 	  3 TEMP	    3
+
+31 rows selected.
+
+********************************************************************************************************************************************************************
+###SESSION USING TEMP  ###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###MV LAST REFRESH TIME###
+********************************************************************************************************************************************************************
+
+OWNER		MVIEW_NAME		       LAST_REFRESH_DATE
+--------------- ------------------------------ -------------------
+MDRL		FACT_POS_SALE_SUMM_MV	       2024-12-14 23:43:07
+USMSYS		STYLE_ANLSYS_MV 	       2024-12-31 00:48:39
+USMSYS		TWL_OP_MTHX_MV		       2022-02-24 07:17:35
+USMSYS		RDS_SAL_STK_MV		       2024-12-31 00:53:55
+USMSYS		PUR_SAL_MV		       2024-12-31 01:56:36
+USMSYS		TRIMTHAGE_MV		       2024-12-31 01:27:03
+USMSYS		TRIMTHX_MV		       2024-12-31 00:00:29
+USMSYS		RCT_SAL_STK_MV		       2024-12-31 01:01:42
+USMSYS		CATX_MV 		       2024-12-31 01:14:25
+MDRL		SALESPERSON_MV		       2024-12-31 16:59:48
+MDRL		COA_MV			       2024-12-31 16:59:40
+MDRL		BOM_MV			       2024-12-31 16:59:40
+MDRL		CONTROL_SL_MV		       2024-12-31 16:59:46
+MDRL		LEDGER_MV		       2024-12-31 16:59:40
+MDRL		PRICE_CHART_MV		       2024-12-31 16:59:48
+MDRL		ROUTE_MV		       2024-12-31 16:59:48
+MDRL		ADMOU_MV		       2024-12-31 16:59:46
+MDRL		COST_SHEET_MV		       2024-12-31 16:59:40
+MDRL		INVGRP_MV		       2024-12-31 16:59:49
+MDRL		SITE_MV 		       2024-12-31 16:59:48
+MDRL		ITEM_MV 		       2024-12-31 16:59:40
+
+21 rows selected.
+
+
+OWNER		MVIEW_NAME		       LAST_REFRESH_DATE
+--------------- ------------------------------ -------------------
+MDRL		FACT_POS_SALE_SUMM_MV	       2024-12-14 23:43:07
+
+********************************************************************************************************************************************************************
+###MV LAST REFRESH TIME###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###PROGRAM WISE SESSIONS###
+********************************************************************************************************************************************************************
+
+PROGRAM 			    TOTAL_SESSIONS ACTIVE_SESSIONS INACTIVE_SESSIONS
+----------------------------------- -------------- --------------- -----------------
+GinApps.Scheduler.exe				14		 1		  13
+oracle@SOCHPRD (J005)				 1		 1		   0
+oracle@SOCHPRD (J000)				 1		 1		   0
+oracle@SOCHPRD (J001)				 1		 1		   0
+oracle@SOCHPRD (J002)				 1		 1		   0
+oracle@SOCHPRD (J004)				 1		 1		   0
+Ginesys.API					 3		 1		   2
+POSDxDataGatherer.exe				 7		 1		   6
+Microsoft.Mashup.Container.NetFX45.		38		 1		  37
+sqlplus.exe					 2		 1		   1
+oracle@SOCHPRD (J003)				 1		 1		   0
+oracle@SOCHPRD (J006)				 1		 1		   0
+sqlplus@SOCHPRD (TNS V1-V3)			 1		 1		   0
+LaunchPad.exe					 4		 0		   4
+JDBC Thin Client				20		 0		  20
+dis51usr.exe					 3		 0		   3
+DataSync.API					28		 0		  28
+w3wp.exe					23		 0		  23
+Microsoft.Mashup.Container.NetFX40.		 4		 0		   4
+CPOS.ReportLayoutImporter.exe			 3		 0		   3
+DataExchange.exe				 3		 0		   3
+Planning.Service.exe				 1		 0		   1
+LicenseManager.Service.exe			 1		 0		   1
+Finance.API					 3		 0		   3
+eWebReportsScheduler.exe			 2		 0		   2
+GNFS.Service.exe				 1		 0		   1
+Toad.exe					 6		 0		   6
+EXCEL.EXE					 2		 0		   2
+
+28 rows selected.
+
+********************************************************************************************************************************************************************
+###PROGRAM WISE SESSIONS###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###TOP CPU CONSUMING SESSION(PROGRAM WISE) START###
+********************************************************************************************************************************************************************
+
+      RANK	  SID	 SERIAL# PROGRAM		 CPUMINS LOGON_TIME  ACTION		  EVENT 	       TERMINAL   WAIT_CLASS
+---------- ---------- ---------- -------------------- ---------- ----------- -------------------- -------------------- ---------- ---------------
+	 1	  961	   34057 eWebReportsScheduler	  7329.1 28-NOV-2024			  SQL*Net message from MD-BLR-SVR Idle
+	 2	  837	   56313 JDBC Thin Client	  258.88 24-DEC-2024			  SQL*Net message from unknown	  Idle
+	 3	 1473	   49891 oracle@SOCHPRD (MMON	  143.19 13-OCT-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 4	  911	   34197 sqlplus.exe		  135.93 09-DEC-2024			  SQL*Net message from MD-BLR-SVR Idle
+	 5	  337	   50275 Planning.Service.exe	  114.66 31-DEC-2024			  SQL*Net message from MD-BLR-SVR Idle
+	 6	  971	   63761 Toad.exe		   77.62 30-DEC-2024			  SQL*Net message from MD-BLR-SVR Idle
+	 7	    1	    8207 oracle@SOCHPRD (MMNL	   45.11 13-OCT-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 8	 1218	   47707 JDBC Thin Client	   41.84 24-DEC-2024			  SQL*Net message from unknown	  Idle
+	 9	 1168	   40858 JDBC Thin Client	   41.52 24-DEC-2024			  SQL*Net message from unknown	  Idle
+	10	  132	   49872 JDBC Thin Client	   41.32 24-DEC-2024			  SQL*Net message from unknown	  Idle
+
+10 rows selected.
+
+********************************************************************************************************************************************************************
+###TOP CPU CONSUMING SESSION(PROGRAM WISE) END###
+********************************************************************************************************************************************************************
+###Today Cube Refresh status START###
+********************************************************************************************************************************************************************
+
+      CODE DATACUBE_CODE  CUBE_CODE START_TIM END_TIME	RUN_DURATI CREATOR		STATUS		   ERROR_REASON
+---------- ------------- ---------- --------- --------- ---------- -------------------- ------------------ ----------------------------------------
+    106833	      36       1520 31-DEC-24 31-DEC-24 00:00:48   Vani K		Refresh completed
+    106832	      36       1520 31-DEC-24 31-DEC-24 00:00:47   Vani K		Refresh completed
+    106831	      63       1450 31-DEC-24 31-DEC-24 00:00:53   Dineshn		Refresh completed
+    106830	      36       1520 31-DEC-24 31-DEC-24 00:00:48   Vani K		Refresh completed
+    106829	      36       1520 31-DEC-24 31-DEC-24 00:00:45   Vani K		Refresh completed
+    106828	      36       1520 31-DEC-24 31-DEC-24 00:00:48   Vani K		Refresh completed
+    106827	       4       1407 31-DEC-24 31-DEC-24 00:03:01   Abhijit		Refresh completed
+    106826	      36       1520 31-DEC-24 31-DEC-24 00:00:45   Vani K		Refresh completed
+    106825	       4       1407 31-DEC-24 31-DEC-24 00:02:52   Abhijit		Refresh completed
+    106824	      35       1010 31-DEC-24 31-DEC-24 00:46:11   Vishnu L		Refresh completed
+    106823	      35       1376 31-DEC-24 31-DEC-24 01:03:25   SRIKANTH		Refresh completed
+    106822	       1       1512 31-DEC-24 31-DEC-24 01:42:02   Arun Kumar		Refresh completed
+    106821	      36       1511 31-DEC-24 31-DEC-24 00:00:48   Arun Kumar		Refresh completed
+    106820	      36       1393 31-DEC-24 31-DEC-24 00:00:45   SRIKANTH		Refresh completed
+    106819	      35       1465 31-DEC-24 31-DEC-24 00:12:36   Ginesys1		Refresh completed
+    106818	      21       1163 31-DEC-24 31-DEC-24 00:21:06   Ginesys1		Refresh completed
+    106817	      36       1378 31-DEC-24 31-DEC-24 00:00:30   Dineshn		Refresh completed
+    106816	     106       1421 31-DEC-24 31-DEC-24 00:01:20   Arvind Kumar V	Refresh completed
+    106815	      25       1466 31-DEC-24 31-DEC-24 01:04:53   Arvind Kumar V	Refresh completed
+    106814	      36       1473 31-DEC-24 31-DEC-24 00:02:38   Naveen		Refresh completed
+    106813	       2       1451 31-DEC-24 31-DEC-24 00:11:45   SRIKANTH		Refresh completed
+    106812	       1       1449 31-DEC-24 31-DEC-24 01:20:43   SRIKANTH		Refresh completed
+    106811	      18       1161 31-DEC-24 31-DEC-24 00:00:37   Ginesys1		Refresh completed
+
+23 rows selected.
+
+###Today Cube Refresh status END###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###CURRENT ARCHIVE GENERATED###
+********************************************************************************************************************************************************************
+
+DAY	    NUM_ARCHIVES_GENERATED ARCHIVE_SIZE_GB
+----------- ---------------------- ---------------
+2024-12-31		       622	     163.9
+2024-12-30		       926	    202.98
+2024-12-29		      1010	    236.91
+2024-12-28		      1024	     248.2
+2024-12-27		       967	    226.81
+
+********************************************************************************************************************************************************************
+###CURRENT ARCHIVE GENERATED###
+********************************************************************************************************************************************************************

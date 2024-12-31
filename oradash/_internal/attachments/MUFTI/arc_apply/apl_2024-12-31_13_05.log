@@ -1,0 +1,349 @@
+
+APPLY DATE and TIME
+------------------------------
+12-31-2024 13:05:01
+
+
+NAME	  OPEN_MODE	       DATABASE_ROLE
+--------- -------------------- ----------------
+GINESYS   MOUNTED	       PRIMARY
+
+
+Archive Applied
+------------------------------------------------------------------------
+Last Archive Sequence Applied : 772926
+
+ORA-00279: change 60048163909 generated at 12/31/2024 12:02:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772927_mq742ssf_.arc
+ORA-00280: change 60048163909 for thread 1 is in sequence #772927
+
+
+ORA-00279: change 60048189348 generated at 12/31/2024 12:04:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772928_mq746l2l_.arc
+ORA-00280: change 60048189348 for thread 1 is in sequence #772928
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772927_mq742ssf_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048209749 generated at 12/31/2024 12:06:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772929_mq74b9ws_.arc
+ORA-00280: change 60048209749 for thread 1 is in sequence #772929
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772928_mq746l2l_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048223752 generated at 12/31/2024 12:08:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772930_mq74fnfn_.arc
+ORA-00280: change 60048223752 for thread 1 is in sequence #772930
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772929_mq74b9ws_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048291961 generated at 12/31/2024 12:09:48 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772931_mq74g1n2_.arc
+ORA-00280: change 60048291961 for thread 1 is in sequence #772931
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772930_mq74fnfn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048362365 generated at 12/31/2024 12:10:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772932_mq74ksx0_.arc
+ORA-00280: change 60048362365 for thread 1 is in sequence #772932
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772931_mq74g1n2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048379450 generated at 12/31/2024 12:12:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772933_mq74okm2_.arc
+ORA-00280: change 60048379450 for thread 1 is in sequence #772933
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772932_mq74ksx0_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048398024 generated at 12/31/2024 12:14:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772934_mq74s9hq_.arc
+ORA-00280: change 60048398024 for thread 1 is in sequence #772934
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772933_mq74okm2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048430516 generated at 12/31/2024 12:16:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772935_mq74x1hp_.arc
+ORA-00280: change 60048430516 for thread 1 is in sequence #772935
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772934_mq74s9hq_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048459955 generated at 12/31/2024 12:18:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772936_mq750skf_.arc
+ORA-00280: change 60048459955 for thread 1 is in sequence #772936
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772935_mq74x1hp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048475162 generated at 12/31/2024 12:20:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772937_mq754kfj_.arc
+ORA-00280: change 60048475162 for thread 1 is in sequence #772937
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772936_mq750skf_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048502694 generated at 12/31/2024 12:22:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772938_mq7589fb_.arc
+ORA-00280: change 60048502694 for thread 1 is in sequence #772938
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772937_mq754kfj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048523887 generated at 12/31/2024 12:24:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772939_mq75d1dm_.arc
+ORA-00280: change 60048523887 for thread 1 is in sequence #772939
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772938_mq7589fb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048542307 generated at 12/31/2024 12:26:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772940_mq75hs88_.arc
+ORA-00280: change 60048542307 for thread 1 is in sequence #772940
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772939_mq75d1dm_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048553674 generated at 12/31/2024 12:28:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772941_mq75mkrb_.arc
+ORA-00280: change 60048553674 for thread 1 is in sequence #772941
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772940_mq75hs88_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048578218 generated at 12/31/2024 12:30:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772942_mq75q928_.arc
+ORA-00280: change 60048578218 for thread 1 is in sequence #772942
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772941_mq75mkrb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048599587 generated at 12/31/2024 12:32:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772943_mq75v1xy_.arc
+ORA-00280: change 60048599587 for thread 1 is in sequence #772943
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772942_mq75q928_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048606404 generated at 12/31/2024 12:34:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772944_mq75ysp9_.arc
+ORA-00280: change 60048606404 for thread 1 is in sequence #772944
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772943_mq75v1xy_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048630785 generated at 12/31/2024 12:36:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772945_mq762kpq_.arc
+ORA-00280: change 60048630785 for thread 1 is in sequence #772945
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772944_mq75ysp9_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048656263 generated at 12/31/2024 12:38:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772946_mq7669rj_.arc
+ORA-00280: change 60048656263 for thread 1 is in sequence #772946
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772945_mq762kpq_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60048911295 generated at 12/31/2024 12:40:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772947_mq76b1bq_.arc
+ORA-00280: change 60048911295 for thread 1 is in sequence #772947
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772946_mq7669rj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049204030 generated at 12/31/2024 12:42:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772948_mq76fswx_.arc
+ORA-00280: change 60049204030 for thread 1 is in sequence #772948
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772947_mq76b1bq_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049216075 generated at 12/31/2024 12:44:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772949_mq76kkgr_.arc
+ORA-00280: change 60049216075 for thread 1 is in sequence #772949
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772948_mq76fswx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049225961 generated at 12/31/2024 12:46:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772950_mq76o9wt_.arc
+ORA-00280: change 60049225961 for thread 1 is in sequence #772950
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772949_mq76kkgr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049241286 generated at 12/31/2024 12:48:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772951_mq76s1fv_.arc
+ORA-00280: change 60049241286 for thread 1 is in sequence #772951
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772950_mq76o9wt_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049251659 generated at 12/31/2024 12:50:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772952_mq76wt1p_.arc
+ORA-00280: change 60049251659 for thread 1 is in sequence #772952
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772951_mq76s1fv_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049261466 generated at 12/31/2024 12:52:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772953_mq770koc_.arc
+ORA-00280: change 60049261466 for thread 1 is in sequence #772953
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772952_mq76wt1p_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049269271 generated at 12/31/2024 12:54:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772954_mq77496h_.arc
+ORA-00280: change 60049269271 for thread 1 is in sequence #772954
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772953_mq770koc_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049453828 generated at 12/31/2024 12:56:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772955_mq7781oz_.arc
+ORA-00280: change 60049453828 for thread 1 is in sequence #772955
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772954_mq77496h_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049474997 generated at 12/31/2024 12:58:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772956_mq77cs3y_.arc
+ORA-00280: change 60049474997 for thread 1 is in sequence #772956
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772955_mq7781oz_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049480894 generated at 12/31/2024 13:00:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772957_mq77hl15_.arc
+ORA-00280: change 60049480894 for thread 1 is in sequence #772957
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772956_mq77cs3y_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 60049536225 generated at 12/31/2024 13:02:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772958_%u_.arc
+ORA-00280: change 60049536225 for thread 1 is in sequence #772958
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772957_mq77hl15_.arc' no longer
+needed for this recovery
+
+
+ORA-00308: cannot open archived log
+'/arch/GINESYS/archivelog/2024_12_31/o1_mf_1_772958_%u_.arc'
+ORA-27037: unable to obtain file status
+Linux-x86_64 Error: 2: No such file or directory
+Additional information: 3
+
+
+
+Archive Applied
+------------------------------------------------------------------------
+Last Archive Sequence Applied : 772957
+
+
+Finished DATE and TIME
+------------------------------
+12-31-2024 13:05:14
+

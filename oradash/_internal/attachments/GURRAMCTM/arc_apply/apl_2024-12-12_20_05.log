@@ -1,0 +1,489 @@
+
+APPLY DATE and TIME
+------------------------------
+12-12-2024 20:05:02
+
+
+NAME	  OPEN_MODE	       DATABASE_ROLE
+--------- -------------------- ----------------
+GINESYS   MOUNTED	       PRIMARY
+
+
+Archive Applied
+------------------------------------------------------------------------
+Last Archive Sequence Applied : 1346260
+
+ORA-00279: change 53943414205 generated at 12/12/2024 19:06:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346261_moosssyp_.arc
+ORA-00280: change 53943414205 for thread 1 is in sequence #1346261
+
+
+ORA-00279: change 53943582946 generated at 12/12/2024 19:08:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346262_moosxkbp_.arc
+ORA-00280: change 53943582946 for thread 1 is in sequence #1346262
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346261_moosssyp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943605162 generated at 12/12/2024 19:10:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346263_moot19o6_.arc
+ORA-00280: change 53943605162 for thread 1 is in sequence #1346263
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346262_moosxkbp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943623369 generated at 12/12/2024 19:12:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346264_moot521b_.arc
+ORA-00280: change 53943623369 for thread 1 is in sequence #1346264
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346263_moot19o6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943632254 generated at 12/12/2024 19:14:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346265_moot8t00_.arc
+ORA-00280: change 53943632254 for thread 1 is in sequence #1346265
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346264_moot521b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943638789 generated at 12/12/2024 19:16:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346266_mootdk9y_.arc
+ORA-00280: change 53943638789 for thread 1 is in sequence #1346266
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346265_moot8t00_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943670777 generated at 12/12/2024 19:18:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346267_mootj9qd_.arc
+ORA-00280: change 53943670777 for thread 1 is in sequence #1346267
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346266_mootdk9y_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943708236 generated at 12/12/2024 19:20:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346268_mootn1dr_.arc
+ORA-00280: change 53943708236 for thread 1 is in sequence #1346268
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346267_mootj9qd_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943743642 generated at 12/12/2024 19:22:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346269_mootqsqg_.arc
+ORA-00280: change 53943743642 for thread 1 is in sequence #1346269
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346268_mootn1dr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943801258 generated at 12/12/2024 19:24:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346270_mootvkmy_.arc
+ORA-00280: change 53943801258 for thread 1 is in sequence #1346270
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346269_mootqsqg_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943835175 generated at 12/12/2024 19:26:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346271_mootzb10_.arc
+ORA-00280: change 53943835175 for thread 1 is in sequence #1346271
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346270_mootvkmy_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943873949 generated at 12/12/2024 19:28:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346272_moov31ct_.arc
+ORA-00280: change 53943873949 for thread 1 is in sequence #1346272
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346271_mootzb10_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943950412 generated at 12/12/2024 19:30:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346273_moov6t0h_.arc
+ORA-00280: change 53943950412 for thread 1 is in sequence #1346273
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346272_moov31ct_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943963979 generated at 12/12/2024 19:32:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346274_moovbkbo_.arc
+ORA-00280: change 53943963979 for thread 1 is in sequence #1346274
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346273_moov6t0h_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53943972659 generated at 12/12/2024 19:34:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346275_moovgb0t_.arc
+ORA-00280: change 53943972659 for thread 1 is in sequence #1346275
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346274_moovbkbo_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944001861 generated at 12/12/2024 19:36:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346276_moovl1fv_.arc
+ORA-00280: change 53944001861 for thread 1 is in sequence #1346276
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346275_moovgb0t_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944060446 generated at 12/12/2024 19:38:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346277_moovosqy_.arc
+ORA-00280: change 53944060446 for thread 1 is in sequence #1346277
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346276_moovl1fv_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944098544 generated at 12/12/2024 19:40:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346278_moovsk24_.arc
+ORA-00280: change 53944098544 for thread 1 is in sequence #1346278
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346277_moovosqy_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944111316 generated at 12/12/2024 19:42:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346279_moovx9d6_.arc
+ORA-00280: change 53944111316 for thread 1 is in sequence #1346279
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346278_moovsk24_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944136833 generated at 12/12/2024 19:44:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346280_moow112d_.arc
+ORA-00280: change 53944136833 for thread 1 is in sequence #1346280
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346279_moovx9d6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944162975 generated at 12/12/2024 19:46:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346281_moow4sdr_.arc
+ORA-00280: change 53944162975 for thread 1 is in sequence #1346281
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346280_moow112d_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944168129 generated at 12/12/2024 19:48:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346282_moow8kr1_.arc
+ORA-00280: change 53944168129 for thread 1 is in sequence #1346282
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346281_moow4sdr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944192992 generated at 12/12/2024 19:50:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346283_moowd931_.arc
+ORA-00280: change 53944192992 for thread 1 is in sequence #1346283
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346282_moow8kr1_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944203905 generated at 12/12/2024 19:52:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346284_moowj1kj_.arc
+ORA-00280: change 53944203905 for thread 1 is in sequence #1346284
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346283_moowd931_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944231318 generated at 12/12/2024 19:54:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346285_moowms7f_.arc
+ORA-00280: change 53944231318 for thread 1 is in sequence #1346285
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346284_moowj1kj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944313914 generated at 12/12/2024 19:56:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346286_moowqkl0_.arc
+ORA-00280: change 53944313914 for thread 1 is in sequence #1346286
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346285_moowms7f_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944532736 generated at 12/12/2024 19:58:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346287_moowv9xw_.arc
+ORA-00280: change 53944532736 for thread 1 is in sequence #1346287
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346286_moowqkl0_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944625387 generated at 12/12/2024 20:00:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346288_moowxz22_.arc
+ORA-00280: change 53944625387 for thread 1 is in sequence #1346288
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346287_moowv9xw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53944799435 generated at 12/12/2024 20:01:27 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346289_moowy9cg_.arc
+ORA-00280: change 53944799435 for thread 1 is in sequence #1346289
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346288_moowxz22_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53945076059 generated at 12/12/2024 20:01:37 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346290_moowyn20_.arc
+ORA-00280: change 53945076059 for thread 1 is in sequence #1346290
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346289_moowy9cg_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53945352110 generated at 12/12/2024 20:01:48 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346291_moowyz2r_.arc
+ORA-00280: change 53945352110 for thread 1 is in sequence #1346291
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346290_moowyn20_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53945651097 generated at 12/12/2024 20:01:59 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346292_moowz1wk_.arc
+ORA-00280: change 53945651097 for thread 1 is in sequence #1346292
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346291_moowyz2r_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53945726258 generated at 12/12/2024 20:02:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346293_moowzddw_.arc
+ORA-00280: change 53945726258 for thread 1 is in sequence #1346293
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346292_moowz1wk_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53946000411 generated at 12/12/2024 20:02:12 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346294_moowzpjj_.arc
+ORA-00280: change 53946000411 for thread 1 is in sequence #1346294
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346293_moowzddw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53946267855 generated at 12/12/2024 20:02:22 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346295_moox0044_.arc
+ORA-00280: change 53946267855 for thread 1 is in sequence #1346295
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346294_moowzpjj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53946525888 generated at 12/12/2024 20:02:32 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346296_moox0bwn_.arc
+ORA-00280: change 53946525888 for thread 1 is in sequence #1346296
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346295_moox0044_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53946804461 generated at 12/12/2024 20:02:42 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346297_moox0p39_.arc
+ORA-00280: change 53946804461 for thread 1 is in sequence #1346297
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346296_moox0bwn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53947093844 generated at 12/12/2024 20:02:54 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346298_moox0ztn_.arc
+ORA-00280: change 53947093844 for thread 1 is in sequence #1346298
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346297_moox0p39_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53947355470 generated at 12/12/2024 20:03:03 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346299_moox18v7_.arc
+ORA-00280: change 53947355470 for thread 1 is in sequence #1346299
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346298_moox0ztn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53947610589 generated at 12/12/2024 20:03:12 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346300_moox1mpq_.arc
+ORA-00280: change 53947610589 for thread 1 is in sequence #1346300
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346299_moox18v7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53947895473 generated at 12/12/2024 20:03:23 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346301_moox1x7r_.arc
+ORA-00280: change 53947895473 for thread 1 is in sequence #1346301
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346300_moox1mpq_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53948166379 generated at 12/12/2024 20:03:33 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346302_moox27fl_.arc
+ORA-00280: change 53948166379 for thread 1 is in sequence #1346302
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346301_moox1x7r_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53948436211 generated at 12/12/2024 20:03:43 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346303_moox2krx_.arc
+ORA-00280: change 53948436211 for thread 1 is in sequence #1346303
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346302_moox27fl_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53948713401 generated at 12/12/2024 20:03:53 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346304_moox2ss3_.arc
+ORA-00280: change 53948713401 for thread 1 is in sequence #1346304
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346303_moox2krx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53948927028 generated at 12/12/2024 20:04:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346305_moox6k7g_.arc
+ORA-00280: change 53948927028 for thread 1 is in sequence #1346305
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346304_moox2ss3_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 53949131379 generated at 12/12/2024 20:06:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346306_%u_.arc
+ORA-00280: change 53949131379 for thread 1 is in sequence #1346306
+ORA-00278: log file
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346305_moox6k7g_.arc' no longer
+needed for this recovery
+
+
+ORA-00308: cannot open archived log
+'/arch/GINESYS/archivelog/2024_12_12/o1_mf_1_1346306_%u_.arc'
+ORA-27037: unable to obtain file status
+Linux-x86_64 Error: 2: No such file or directory
+Additional information: 3
+
+
+
+Archive Applied
+------------------------------------------------------------------------
+Last Archive Sequence Applied : 1346305
+
+
+Finished DATE and TIME
+------------------------------
+12-12-2024 20:07:21
+

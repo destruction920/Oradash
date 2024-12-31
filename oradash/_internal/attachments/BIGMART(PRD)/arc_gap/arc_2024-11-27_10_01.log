@@ -1,0 +1,12 @@
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - AT 192.168.103.83, CURRENT ARCHIVE LOG SEQ NO IS :  290839
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - AT 192.168.103.48, CURRENT  APPLIED ARCHIVE LOG SEQ NO IS :  290809
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - AT 192.168.103.48, CURRENT AVAILABLE ARCHIVE LOG SEQ NO IS :  290838
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - AT 192.168.103.48, THE GAP IN APPLIED ARCHIVE IS : =   30
+[oracle][Wed Nov 27 10:01:01 +0545 2024] - .

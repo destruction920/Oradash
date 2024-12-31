@@ -1,0 +1,15 @@
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - AT 10.0.0.15, CURRENT ARCHIVE LOG SEQ NO IS :  3102088
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - AT 10.0.0.18, CURRENT  APPLIED ARCHIVE LOG SEQ NO IS :  3102050
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - AT 10.0.0.18, CURRENT AVAILABLE ARCHIVE LOG SEQ NO IS :  3102088
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - AT 10.0.0.18, THE GAP IN APPLIED ARCHIVE IS : =   38
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .
+[oracle][Tue Dec 31 13:01:02 IST 2024] - THE GAP OF 38 WAS RECOREDED
+[oracle][Tue Dec 31 13:01:02 IST 2024] - .

@@ -1,0 +1,12 @@
+[oracle][Thu Dec 12 20:01:01 IST 2024] - .
+[oracle][Thu Dec 12 20:01:01 IST 2024] - AT 10.20.1.6, CURRENT ARCHIVE LOG SEQ NO IS :  1346287
+[oracle][Thu Dec 12 20:01:01 IST 2024] - .
+[oracle][Thu Dec 12 20:01:01 IST 2024] - .
+[oracle][Thu Dec 12 20:01:01 IST 2024] - AT 10.20.1.16, CURRENT  APPLIED ARCHIVE LOG SEQ NO IS :  1346260
+[oracle][Thu Dec 12 20:01:01 IST 2024] - .
+[oracle][Thu Dec 12 20:01:02 IST 2024] - .
+[oracle][Thu Dec 12 20:01:02 IST 2024] - AT 10.20.1.16, CURRENT AVAILABLE ARCHIVE LOG SEQ NO IS :  1346286
+[oracle][Thu Dec 12 20:01:02 IST 2024] - .
+[oracle][Thu Dec 12 20:01:02 IST 2024] - .
+[oracle][Thu Dec 12 20:01:02 IST 2024] - AT 10.20.1.16, THE GAP IN APPLIED ARCHIVE IS : =   27
+[oracle][Thu Dec 12 20:01:02 IST 2024] - .

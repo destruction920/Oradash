@@ -1,0 +1,21 @@
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:01 IST 2024] - AT 192.168.1.100, CURRENT ARCHIVE LOG SEQ NO IS :  1177370
+[oracle][Tue Dec 31 13:01:01 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - AT 192.168.1.101, CURRENT  APPLIED ARCHIVE LOG SEQ NO IS :  1177268
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - AT 192.168.1.101, CURRENT AVAILABLE ARCHIVE LOG SEQ NO IS :  1177370
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - AT 192.168.1.101, THE GAP IN APPLIED ARCHIVE IS : =   102
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - AT 192.168.1.101, CURRENT AVAILABLE ARCHIVE LOG SEQ ON PORTABLE DRIVE :  1177369
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - AT 192.168.1.101, THE GAP ON PORTABLE DRIVE IS : =   1
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .
+[oracle][Tue Dec 31 13:01:03 IST 2024] - THE GAP OF 102 WAS RECOREDED
+[oracle][Tue Dec 31 13:01:03 IST 2024] - .

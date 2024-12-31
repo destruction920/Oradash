@@ -1,0 +1,1869 @@
+
+APPLY DATE and TIME
+------------------------------
+12-31-2024 13:06:01
+
+
+NAME	  OPEN_MODE	       DATABASE_ROLE
+--------- -------------------- ----------------
+GIN12C	  MOUNTED	       PRIMARY
+
+
+Archive Applied
+-----------------------------------------------------------------------
+Last Archive Sequence Applied: 718189
+
+ORA-00279: change 108533633636 generated at 12/31/2024 12:04:54 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718190_mq745ko8_.arc
+ORA-00280: change 108533633636 for thread 1 is in sequence #718190
+
+
+ORA-00279: change 108533735176 generated at 12/31/2024 12:05:29 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718191_mq745t9b_.arc
+ORA-00280: change 108533735176 for thread 1 is in sequence #718191
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718190_mq745ko8_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108533799557 generated at 12/31/2024 12:05:38 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718192_mq746kk7_.arc
+ORA-00280: change 108533799557 for thread 1 is in sequence #718192
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718191_mq745t9b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108533843974 generated at 12/31/2024 12:06:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718193_mq747xcl_.arc
+ORA-00280: change 108533843974 for thread 1 is in sequence #718193
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718192_mq746kk7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108533898820 generated at 12/31/2024 12:06:45 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718194_mq749o75_.arc
+ORA-00280: change 108533898820 for thread 1 is in sequence #718194
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718193_mq747xcl_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534029196 generated at 12/31/2024 12:07:41 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718195_mq74bb6t_.arc
+ORA-00280: change 108534029196 for thread 1 is in sequence #718195
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718194_mq749o75_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534036872 generated at 12/31/2024 12:08:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718196_mq74dgom_.arc
+ORA-00280: change 108534036872 for thread 1 is in sequence #718196
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718195_mq74bb6t_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534084917 generated at 12/31/2024 12:09:10 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718197_mq74dmz0_.arc
+ORA-00280: change 108534084917 for thread 1 is in sequence #718197
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718196_mq74dgom_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534143090 generated at 12/31/2024 12:09:15 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718198_mq74dqk2_.arc
+ORA-00280: change 108534143090 for thread 1 is in sequence #718198
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718197_mq74dmz0_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534213656 generated at 12/31/2024 12:09:19 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718199_mq74f5c6_.arc
+ORA-00280: change 108534213656 for thread 1 is in sequence #718199
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718198_mq74dqk2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534281211 generated at 12/31/2024 12:09:33 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718200_mq74g1tj_.arc
+ORA-00280: change 108534281211 for thread 1 is in sequence #718200
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718199_mq74f5c6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534313503 generated at 12/31/2024 12:10:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718201_mq74jf05_.arc
+ORA-00280: change 108534313503 for thread 1 is in sequence #718201
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718200_mq74g1tj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534406831 generated at 12/31/2024 12:11:16 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718202_mq74kkws_.arc
+ORA-00280: change 108534406831 for thread 1 is in sequence #718202
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718201_mq74jf05_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534411376 generated at 12/31/2024 12:11:53 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718203_mq74ksxg_.arc
+ORA-00280: change 108534411376 for thread 1 is in sequence #718203
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718202_mq74kkws_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534419936 generated at 12/31/2024 12:12:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718204_mq74mrht_.arc
+ORA-00280: change 108534419936 for thread 1 is in sequence #718204
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718203_mq74ksxg_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534492916 generated at 12/31/2024 12:13:04 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718205_mq74okhv_.arc
+ORA-00280: change 108534492916 for thread 1 is in sequence #718205
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718204_mq74mrht_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534569821 generated at 12/31/2024 12:14:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718206_mq74ol2b_.arc
+ORA-00280: change 108534569821 for thread 1 is in sequence #718206
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718205_mq74okhv_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534571287 generated at 12/31/2024 12:14:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718207_mq74pxz1_.arc
+ORA-00280: change 108534571287 for thread 1 is in sequence #718207
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718206_mq74ol2b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534625208 generated at 12/31/2024 12:14:45 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718208_mq74rp4t_.arc
+ORA-00280: change 108534625208 for thread 1 is in sequence #718208
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718207_mq74pxz1_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534690532 generated at 12/31/2024 12:15:42 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718209_mq74sb6f_.arc
+ORA-00280: change 108534690532 for thread 1 is in sequence #718209
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718208_mq74rp4t_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534745483 generated at 12/31/2024 12:16:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718210_mq74sngm_.arc
+ORA-00280: change 108534745483 for thread 1 is in sequence #718210
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718209_mq74sb6f_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534809837 generated at 12/31/2024 12:16:12 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718211_mq74tkm8_.arc
+ORA-00280: change 108534809837 for thread 1 is in sequence #718211
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718210_mq74sngm_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534855475 generated at 12/31/2024 12:16:41 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718212_mq74vv78_.arc
+ORA-00280: change 108534855475 for thread 1 is in sequence #718212
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718211_mq74tkm8_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534910885 generated at 12/31/2024 12:17:23 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718213_mq74wwhm_.arc
+ORA-00280: change 108534910885 for thread 1 is in sequence #718213
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718212_mq74vv78_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534921808 generated at 12/31/2024 12:17:56 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718214_mq74x1ww_.arc
+ORA-00280: change 108534921808 for thread 1 is in sequence #718214
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718213_mq74wwhm_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534930993 generated at 12/31/2024 12:18:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718215_mq74y2v6_.arc
+ORA-00280: change 108534930993 for thread 1 is in sequence #718215
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718214_mq74x1ww_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534961997 generated at 12/31/2024 12:18:34 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718216_mq74ylnc_.arc
+ORA-00280: change 108534961997 for thread 1 is in sequence #718216
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718215_mq74y2v6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534978872 generated at 12/31/2024 12:18:50 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718217_mq74ytc9_.arc
+ORA-00280: change 108534978872 for thread 1 is in sequence #718217
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718216_mq74ylnc_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108534993248 generated at 12/31/2024 12:18:58 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718218_mq74z2xz_.arc
+ORA-00280: change 108534993248 for thread 1 is in sequence #718218
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718217_mq74ytc9_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535055651 generated at 12/31/2024 12:19:06 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718219_mq74z9c5_.arc
+ORA-00280: change 108535055651 for thread 1 is in sequence #718219
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718218_mq74z2xz_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535117391 generated at 12/31/2024 12:19:13 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718220_mq74zlb8_.arc
+ORA-00280: change 108535117391 for thread 1 is in sequence #718220
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718219_mq74z9c5_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535160867 generated at 12/31/2024 12:19:22 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718221_mq74zz9r_.arc
+ORA-00280: change 108535160867 for thread 1 is in sequence #718221
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718220_mq74zlb8_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535192183 generated at 12/31/2024 12:19:35 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718222_mq750sfh_.arc
+ORA-00280: change 108535192183 for thread 1 is in sequence #718222
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718221_mq74zz9r_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535220304 generated at 12/31/2024 12:20:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718223_mq750w3w_.arc
+ORA-00280: change 108535220304 for thread 1 is in sequence #718223
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718222_mq750sfh_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535231896 generated at 12/31/2024 12:20:04 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718224_mq751qlp_.arc
+ORA-00280: change 108535231896 for thread 1 is in sequence #718224
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718223_mq750w3w_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535236825 generated at 12/31/2024 12:20:31 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718225_mq752wpb_.arc
+ORA-00280: change 108535236825 for thread 1 is in sequence #718225
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718224_mq751qlp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535272950 generated at 12/31/2024 12:21:08 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718226_mq7540f6_.arc
+ORA-00280: change 108535272950 for thread 1 is in sequence #718226
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718225_mq752wpb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535285135 generated at 12/31/2024 12:21:44 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718227_mq754kbx_.arc
+ORA-00280: change 108535285135 for thread 1 is in sequence #718227
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718226_mq7540f6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535300661 generated at 12/31/2024 12:22:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718228_mq755xm2_.arc
+ORA-00280: change 108535300661 for thread 1 is in sequence #718228
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718227_mq754kbx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535308343 generated at 12/31/2024 12:22:45 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718229_mq7576ky_.arc
+ORA-00280: change 108535308343 for thread 1 is in sequence #718229
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718228_mq755xm2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535338230 generated at 12/31/2024 12:23:26 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718230_mq7589hy_.arc
+ORA-00280: change 108535338230 for thread 1 is in sequence #718230
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718229_mq7576ky_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535388467 generated at 12/31/2024 12:24:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718231_mq75d099_.arc
+ORA-00280: change 108535388467 for thread 1 is in sequence #718231
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718230_mq7589hy_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535442442 generated at 12/31/2024 12:26:00 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718232_mq75d28b_.arc
+ORA-00280: change 108535442442 for thread 1 is in sequence #718232
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718231_mq75d099_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535446189 generated at 12/31/2024 12:26:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718233_mq75gycd_.arc
+ORA-00280: change 108535446189 for thread 1 is in sequence #718233
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718232_mq75d28b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535510802 generated at 12/31/2024 12:27:34 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718234_mq75h1g7_.arc
+ORA-00280: change 108535510802 for thread 1 is in sequence #718234
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718233_mq75gycd_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535510974 generated at 12/31/2024 12:27:37 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718235_mq75h3dj_.arc
+ORA-00280: change 108535510974 for thread 1 is in sequence #718235
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718234_mq75h1g7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535511107 generated at 12/31/2024 12:27:39 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718236_mq75h4j4_.arc
+ORA-00280: change 108535511107 for thread 1 is in sequence #718236
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718235_mq75h3dj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535511200 generated at 12/31/2024 12:27:40 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718237_mq75h6bf_.arc
+ORA-00280: change 108535511200 for thread 1 is in sequence #718237
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718236_mq75h4j4_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535511259 generated at 12/31/2024 12:27:42 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718238_mq75h9wr_.arc
+ORA-00280: change 108535511259 for thread 1 is in sequence #718238
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718237_mq75h6bf_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535511571 generated at 12/31/2024 12:27:45 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718239_mq75hdnp_.arc
+ORA-00280: change 108535511571 for thread 1 is in sequence #718239
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718238_mq75h9wr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535512075 generated at 12/31/2024 12:27:48 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718240_mq75hhvl_.arc
+ORA-00280: change 108535512075 for thread 1 is in sequence #718240
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718239_mq75hdnp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535513178 generated at 12/31/2024 12:27:51 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718241_mq75hlrp_.arc
+ORA-00280: change 108535513178 for thread 1 is in sequence #718241
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718240_mq75hhvl_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535513858 generated at 12/31/2024 12:27:54 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718242_mq75hnbl_.arc
+ORA-00280: change 108535513858 for thread 1 is in sequence #718242
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718241_mq75hlrp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535513935 generated at 12/31/2024 12:27:56 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718243_mq75hq69_.arc
+ORA-00280: change 108535513935 for thread 1 is in sequence #718243
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718242_mq75hnbl_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535514294 generated at 12/31/2024 12:27:59 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718244_mq75ht2b_.arc
+ORA-00280: change 108535514294 for thread 1 is in sequence #718244
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718243_mq75hq69_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535523004 generated at 12/31/2024 12:28:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718245_mq75htck_.arc
+ORA-00280: change 108535523004 for thread 1 is in sequence #718245
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718244_mq75ht2b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535523022 generated at 12/31/2024 12:28:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718246_mq75hwgr_.arc
+ORA-00280: change 108535523022 for thread 1 is in sequence #718246
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718245_mq75htck_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535527140 generated at 12/31/2024 12:28:04 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718247_mq75hxgh_.arc
+ORA-00280: change 108535527140 for thread 1 is in sequence #718247
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718246_mq75hwgr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535527644 generated at 12/31/2024 12:28:05 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718248_mq75j05v_.arc
+ORA-00280: change 108535527644 for thread 1 is in sequence #718248
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718247_mq75hxgh_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535527967 generated at 12/31/2024 12:28:08 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718249_mq75j4xc_.arc
+ORA-00280: change 108535527967 for thread 1 is in sequence #718249
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718248_mq75j05v_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535528396 generated at 12/31/2024 12:28:12 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718250_mq75j8bc_.arc
+ORA-00280: change 108535528396 for thread 1 is in sequence #718250
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718249_mq75j4xc_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535531431 generated at 12/31/2024 12:28:16 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718251_mq75jc7w_.arc
+ORA-00280: change 108535531431 for thread 1 is in sequence #718251
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718250_mq75j8bc_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535533242 generated at 12/31/2024 12:28:19 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718252_mq75jgc6_.arc
+ORA-00280: change 108535533242 for thread 1 is in sequence #718252
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718251_mq75jc7w_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535533544 generated at 12/31/2024 12:28:22 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718253_mq75jjx3_.arc
+ORA-00280: change 108535533544 for thread 1 is in sequence #718253
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718252_mq75jgc6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535533869 generated at 12/31/2024 12:28:24 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718254_mq75jmto_.arc
+ORA-00280: change 108535533869 for thread 1 is in sequence #718254
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718253_mq75jjx3_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535534106 generated at 12/31/2024 12:28:27 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718255_mq75jpo7_.arc
+ORA-00280: change 108535534106 for thread 1 is in sequence #718255
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718254_mq75jmto_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535534284 generated at 12/31/2024 12:28:30 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718256_mq75jskb_.arc
+ORA-00280: change 108535534284 for thread 1 is in sequence #718256
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718255_mq75jpo7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535534675 generated at 12/31/2024 12:28:33 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718257_mq75jw9g_.arc
+ORA-00280: change 108535534675 for thread 1 is in sequence #718257
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718256_mq75jskb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535534799 generated at 12/31/2024 12:28:36 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718258_mq75jz2g_.arc
+ORA-00280: change 108535534799 for thread 1 is in sequence #718258
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718257_mq75jw9g_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535534940 generated at 12/31/2024 12:28:39 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718259_mq75k1n4_.arc
+ORA-00280: change 108535534940 for thread 1 is in sequence #718259
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718258_mq75jz2g_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535535079 generated at 12/31/2024 12:28:41 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718260_mq75k5k7_.arc
+ORA-00280: change 108535535079 for thread 1 is in sequence #718260
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718259_mq75k1n4_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535535350 generated at 12/31/2024 12:28:45 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718261_mq75k7bx_.arc
+ORA-00280: change 108535535350 for thread 1 is in sequence #718261
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718260_mq75k5k7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535535481 generated at 12/31/2024 12:28:47 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718262_mq75kc3r_.arc
+ORA-00280: change 108535535481 for thread 1 is in sequence #718262
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718261_mq75k7bx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535536912 generated at 12/31/2024 12:28:51 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718263_mq75mlj2_.arc
+ORA-00280: change 108535536912 for thread 1 is in sequence #718263
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718262_mq75kc3r_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535544398 generated at 12/31/2024 12:30:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718264_mq75offb_.arc
+ORA-00280: change 108535544398 for thread 1 is in sequence #718264
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718263_mq75mlj2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535588526 generated at 12/31/2024 12:31:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718265_mq75qd02_.arc
+ORA-00280: change 108535588526 for thread 1 is in sequence #718265
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718264_mq75offb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535634126 generated at 12/31/2024 12:32:03 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718266_mq75s0lx_.arc
+ORA-00280: change 108535634126 for thread 1 is in sequence #718266
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718265_mq75qd02_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535679665 generated at 12/31/2024 12:32:56 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718267_mq75s1nw_.arc
+ORA-00280: change 108535679665 for thread 1 is in sequence #718267
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718266_mq75s0lx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535679709 generated at 12/31/2024 12:32:57 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718268_mq75s2vd_.arc
+ORA-00280: change 108535679709 for thread 1 is in sequence #718268
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718267_mq75s1nw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535679875 generated at 12/31/2024 12:32:58 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718269_mq75s5b6_.arc
+ORA-00280: change 108535679875 for thread 1 is in sequence #718269
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718268_mq75s2vd_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535680309 generated at 12/31/2024 12:33:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718270_mq75s6yb_.arc
+ORA-00280: change 108535680309 for thread 1 is in sequence #718270
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718269_mq75s5b6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535680369 generated at 12/31/2024 12:33:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718271_mq75s972_.arc
+ORA-00280: change 108535680369 for thread 1 is in sequence #718271
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718270_mq75s6yb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535681309 generated at 12/31/2024 12:33:05 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718272_mq75sctb_.arc
+ORA-00280: change 108535681309 for thread 1 is in sequence #718272
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718271_mq75s972_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535681526 generated at 12/31/2024 12:33:07 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718273_mq75sfk2_.arc
+ORA-00280: change 108535681526 for thread 1 is in sequence #718273
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718272_mq75sctb_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535681826 generated at 12/31/2024 12:33:09 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718274_mq75ss9f_.arc
+ORA-00280: change 108535681826 for thread 1 is in sequence #718274
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718273_mq75sfk2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535682714 generated at 12/31/2024 12:33:21 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718275_mq75svyn_.arc
+ORA-00280: change 108535682714 for thread 1 is in sequence #718275
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718274_mq75ss9f_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535682844 generated at 12/31/2024 12:33:23 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718276_mq75sz4g_.arc
+ORA-00280: change 108535682844 for thread 1 is in sequence #718276
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718275_mq75svyn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535683143 generated at 12/31/2024 12:33:27 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718277_mq75t1ps_.arc
+ORA-00280: change 108535683143 for thread 1 is in sequence #718277
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718276_mq75sz4g_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535683362 generated at 12/31/2024 12:33:29 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718278_mq75t3k2_.arc
+ORA-00280: change 108535683362 for thread 1 is in sequence #718278
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718277_mq75t1ps_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535683418 generated at 12/31/2024 12:33:31 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718279_mq75tdqp_.arc
+ORA-00280: change 108535683418 for thread 1 is in sequence #718279
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718278_mq75t3k2_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535684074 generated at 12/31/2024 12:33:40 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718280_mq75tfqw_.arc
+ORA-00280: change 108535684074 for thread 1 is in sequence #718280
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718279_mq75tdqp_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535684184 generated at 12/31/2024 12:33:41 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718281_mq75tgxz_.arc
+ORA-00280: change 108535684184 for thread 1 is in sequence #718281
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718280_mq75tfqw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535684257 generated at 12/31/2024 12:33:42 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718282_mq75tkgx_.arc
+ORA-00280: change 108535684257 for thread 1 is in sequence #718282
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718281_mq75tgxz_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535684573 generated at 12/31/2024 12:33:45 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718283_mq75tlh8_.arc
+ORA-00280: change 108535684573 for thread 1 is in sequence #718283
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718282_mq75tkgx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535685273 generated at 12/31/2024 12:33:46 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718284_mq75tmo4_.arc
+ORA-00280: change 108535685273 for thread 1 is in sequence #718284
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718283_mq75tlh8_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535685717 generated at 12/31/2024 12:33:47 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718285_mq75tnns_.arc
+ORA-00280: change 108535685717 for thread 1 is in sequence #718285
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718284_mq75tmo4_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535685943 generated at 12/31/2024 12:33:48 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718286_mq75tpsm_.arc
+ORA-00280: change 108535685943 for thread 1 is in sequence #718286
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718285_mq75tnns_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535687106 generated at 12/31/2024 12:33:50 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718287_mq75tqrj_.arc
+ORA-00280: change 108535687106 for thread 1 is in sequence #718287
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718286_mq75tpsm_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535687681 generated at 12/31/2024 12:33:51 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718288_mq75tt1r_.arc
+ORA-00280: change 108535687681 for thread 1 is in sequence #718288
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718287_mq75tqrj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535688220 generated at 12/31/2024 12:33:54 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718289_mq75tv5h_.arc
+ORA-00280: change 108535688220 for thread 1 is in sequence #718289
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718288_mq75tt1r_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535688316 generated at 12/31/2024 12:33:55 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718290_mq75v1rn_.arc
+ORA-00280: change 108535688316 for thread 1 is in sequence #718290
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718289_mq75tv5h_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535689011 generated at 12/31/2024 12:34:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718291_mq75v5kk_.arc
+ORA-00280: change 108535689011 for thread 1 is in sequence #718291
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718290_mq75v1rn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535690497 generated at 12/31/2024 12:34:05 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718292_mq75v7st_.arc
+ORA-00280: change 108535690497 for thread 1 is in sequence #718292
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718291_mq75v5kk_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535690769 generated at 12/31/2024 12:34:07 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718293_mq75v8vq_.arc
+ORA-00280: change 108535690769 for thread 1 is in sequence #718293
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718292_mq75v7st_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535691157 generated at 12/31/2024 12:34:08 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718294_mq75v9z4_.arc
+ORA-00280: change 108535691157 for thread 1 is in sequence #718294
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718293_mq75v8vq_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535691381 generated at 12/31/2024 12:34:09 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718295_mq75vdjk_.arc
+ORA-00280: change 108535691381 for thread 1 is in sequence #718295
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718294_mq75v9z4_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535691664 generated at 12/31/2024 12:34:12 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718296_mq75vgz4_.arc
+ORA-00280: change 108535691664 for thread 1 is in sequence #718296
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718295_mq75vdjk_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535692005 generated at 12/31/2024 12:34:14 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718297_mq75vhyc_.arc
+ORA-00280: change 108535692005 for thread 1 is in sequence #718297
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718296_mq75vgz4_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535692089 generated at 12/31/2024 12:34:15 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718298_mq75vk0o_.arc
+ORA-00280: change 108535692089 for thread 1 is in sequence #718298
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718297_mq75vhyc_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535692225 generated at 12/31/2024 12:34:17 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718299_mq75vt0w_.arc
+ORA-00280: change 108535692225 for thread 1 is in sequence #718299
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718298_mq75vk0o_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535693379 generated at 12/31/2024 12:34:26 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718300_mq75vv0d_.arc
+ORA-00280: change 108535693379 for thread 1 is in sequence #718300
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718299_mq75vt0w_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535693493 generated at 12/31/2024 12:34:27 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718301_mq75vw4t_.arc
+ORA-00280: change 108535693493 for thread 1 is in sequence #718301
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718300_mq75vv0d_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535693697 generated at 12/31/2024 12:34:28 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718302_mq75vyj4_.arc
+ORA-00280: change 108535693697 for thread 1 is in sequence #718302
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718301_mq75vw4t_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535693890 generated at 12/31/2024 12:34:30 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718303_mq75w03j_.arc
+ORA-00280: change 108535693890 for thread 1 is in sequence #718303
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718302_mq75vyj4_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535693918 generated at 12/31/2024 12:34:32 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718304_mq75w26r_.arc
+ORA-00280: change 108535693918 for thread 1 is in sequence #718304
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718303_mq75w03j_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535694251 generated at 12/31/2024 12:34:34 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718305_mq75w36b_.arc
+ORA-00280: change 108535694251 for thread 1 is in sequence #718305
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718304_mq75w26r_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535694331 generated at 12/31/2024 12:34:35 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718306_mq75w5qn_.arc
+ORA-00280: change 108535694331 for thread 1 is in sequence #718306
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718305_mq75w36b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535694494 generated at 12/31/2024 12:34:37 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718307_mq75wh9d_.arc
+ORA-00280: change 108535694494 for thread 1 is in sequence #718307
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718306_mq75w5qn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535695341 generated at 12/31/2024 12:34:47 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718308_mq75wktd_.arc
+ORA-00280: change 108535695341 for thread 1 is in sequence #718308
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718307_mq75wh9d_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535696086 generated at 12/31/2024 12:34:49 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718309_mq75wm0h_.arc
+ORA-00280: change 108535696086 for thread 1 is in sequence #718309
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718308_mq75wktd_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535698340 generated at 12/31/2024 12:34:51 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718310_mq75wotm_.arc
+ORA-00280: change 108535698340 for thread 1 is in sequence #718310
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718309_mq75wm0h_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535698968 generated at 12/31/2024 12:34:53 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718311_mq75wqpc_.arc
+ORA-00280: change 108535698968 for thread 1 is in sequence #718311
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718310_mq75wotm_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535699124 generated at 12/31/2024 12:34:55 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718312_mq75wsvh_.arc
+ORA-00280: change 108535699124 for thread 1 is in sequence #718312
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718311_mq75wqpc_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535699378 generated at 12/31/2024 12:34:57 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718313_mq75wtxn_.arc
+ORA-00280: change 108535699378 for thread 1 is in sequence #718313
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718312_mq75wsvh_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535699470 generated at 12/31/2024 12:34:58 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718314_mq75x3st_.arc
+ORA-00280: change 108535699470 for thread 1 is in sequence #718314
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718313_mq75wtxn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535703030 generated at 12/31/2024 12:35:07 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718315_mq75x4s7_.arc
+ORA-00280: change 108535703030 for thread 1 is in sequence #718315
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718314_mq75x3st_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535704735 generated at 12/31/2024 12:35:08 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718316_mq75x725_.arc
+ORA-00280: change 108535704735 for thread 1 is in sequence #718316
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718315_mq75x4s7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535705498 generated at 12/31/2024 12:35:11 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718317_mq75x7xn_.arc
+ORA-00280: change 108535705498 for thread 1 is in sequence #718317
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718316_mq75x725_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535705696 generated at 12/31/2024 12:35:11 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718318_mq75x93v_.arc
+ORA-00280: change 108535705696 for thread 1 is in sequence #718318
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718317_mq75x7xn_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535705853 generated at 12/31/2024 12:35:13 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718319_mq75xcmf_.arc
+ORA-00280: change 108535705853 for thread 1 is in sequence #718319
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718318_mq75x93v_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535706104 generated at 12/31/2024 12:35:15 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718320_mq75yf0f_.arc
+ORA-00280: change 108535706104 for thread 1 is in sequence #718320
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718319_mq75xcmf_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535709195 generated at 12/31/2024 12:35:49 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718321_mq75ys81_.arc
+ORA-00280: change 108535709195 for thread 1 is in sequence #718321
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718320_mq75yf0f_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535710650 generated at 12/31/2024 12:36:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718322_mq760kdh_.arc
+ORA-00280: change 108535710650 for thread 1 is in sequence #718322
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718321_mq75ys81_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535744177 generated at 12/31/2024 12:36:57 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718323_mq760xyt_.arc
+ORA-00280: change 108535744177 for thread 1 is in sequence #718323
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718322_mq760kdh_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535745914 generated at 12/31/2024 12:37:09 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718324_mq7611lr_.arc
+ORA-00280: change 108535745914 for thread 1 is in sequence #718324
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718323_mq760xyt_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535746125 generated at 12/31/2024 12:37:13 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718325_mq76147v_.arc
+ORA-00280: change 108535746125 for thread 1 is in sequence #718325
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718324_mq7611lr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535746240 generated at 12/31/2024 12:37:16 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718326_mq7616og_.arc
+ORA-00280: change 108535746240 for thread 1 is in sequence #718326
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718325_mq76147v_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747227 generated at 12/31/2024 12:37:18 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718327_mq7617hw_.arc
+ORA-00280: change 108535747227 for thread 1 is in sequence #718327
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718326_mq7616og_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747263 generated at 12/31/2024 12:37:19 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718328_mq7619vh_.arc
+ORA-00280: change 108535747263 for thread 1 is in sequence #718328
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718327_mq7617hw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747381 generated at 12/31/2024 12:37:21 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718329_mq761byx_.arc
+ORA-00280: change 108535747381 for thread 1 is in sequence #718329
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718328_mq7619vh_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747424 generated at 12/31/2024 12:37:22 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718330_mq761cwx_.arc
+ORA-00280: change 108535747424 for thread 1 is in sequence #718330
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718329_mq761byx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747459 generated at 12/31/2024 12:37:23 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718331_mq761g50_.arc
+ORA-00280: change 108535747459 for thread 1 is in sequence #718331
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718330_mq761cwx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747577 generated at 12/31/2024 12:37:26 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718332_mq761h0j_.arc
+ORA-00280: change 108535747577 for thread 1 is in sequence #718332
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718331_mq761g50_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535747614 generated at 12/31/2024 12:37:27 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718333_mq761kmz_.arc
+ORA-00280: change 108535747614 for thread 1 is in sequence #718333
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718332_mq761h0j_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535748041 generated at 12/31/2024 12:37:29 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718334_mq762569_.arc
+ORA-00280: change 108535748041 for thread 1 is in sequence #718334
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718333_mq761kmz_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535757353 generated at 12/31/2024 12:37:49 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718335_mq762ff6_.arc
+ORA-00280: change 108535757353 for thread 1 is in sequence #718335
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718334_mq762569_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535774860 generated at 12/31/2024 12:37:57 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718336_mq762l7y_.arc
+ORA-00280: change 108535774860 for thread 1 is in sequence #718336
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718335_mq762ff6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535785100 generated at 12/31/2024 12:38:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718337_mq762rys_.arc
+ORA-00280: change 108535785100 for thread 1 is in sequence #718337
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718336_mq762l7y_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535787849 generated at 12/31/2024 12:38:08 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718338_mq762v8p_.arc
+ORA-00280: change 108535787849 for thread 1 is in sequence #718338
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718337_mq762rys_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535787977 generated at 12/31/2024 12:38:11 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718339_mq762w3d_.arc
+ORA-00280: change 108535787977 for thread 1 is in sequence #718339
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718338_mq762v8p_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535789587 generated at 12/31/2024 12:38:12 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718340_mq762ynl_.arc
+ORA-00280: change 108535789587 for thread 1 is in sequence #718340
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718339_mq762w3d_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535798738 generated at 12/31/2024 12:38:14 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718341_mq763104_.arc
+ORA-00280: change 108535798738 for thread 1 is in sequence #718341
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718340_mq762ynl_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535799450 generated at 12/31/2024 12:38:16 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718342_mq7633ft_.arc
+ORA-00280: change 108535799450 for thread 1 is in sequence #718342
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718341_mq763104_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535799686 generated at 12/31/2024 12:38:19 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718343_mq7635rx_.arc
+ORA-00280: change 108535799686 for thread 1 is in sequence #718343
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718342_mq7633ft_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535799965 generated at 12/31/2024 12:38:21 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718344_mq7636m5_.arc
+ORA-00280: change 108535799965 for thread 1 is in sequence #718344
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718343_mq7635rx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535800017 generated at 12/31/2024 12:38:22 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718345_mq76390t_.arc
+ORA-00280: change 108535800017 for thread 1 is in sequence #718345
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718344_mq7636m5_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535800330 generated at 12/31/2024 12:38:25 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718346_mq763chr_.arc
+ORA-00280: change 108535800330 for thread 1 is in sequence #718346
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718345_mq76390t_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535800584 generated at 12/31/2024 12:38:27 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718347_mq763mx0_.arc
+ORA-00280: change 108535800584 for thread 1 is in sequence #718347
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718346_mq763chr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535811649 generated at 12/31/2024 12:38:35 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718348_mq765lw1_.arc
+ORA-00280: change 108535811649 for thread 1 is in sequence #718348
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718347_mq763mx0_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535840821 generated at 12/31/2024 12:39:38 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718349_mq76698n_.arc
+ORA-00280: change 108535840821 for thread 1 is in sequence #718349
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718348_mq765lw1_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535894411 generated at 12/31/2024 12:40:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718350_mq767rmo_.arc
+ORA-00280: change 108535894411 for thread 1 is in sequence #718350
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718349_mq76698n_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535912343 generated at 12/31/2024 12:40:48 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718351_mq769qsx_.arc
+ORA-00280: change 108535912343 for thread 1 is in sequence #718351
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718350_mq767rmo_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535945173 generated at 12/31/2024 12:41:51 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718352_mq76b24b_.arc
+ORA-00280: change 108535945173 for thread 1 is in sequence #718352
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718351_mq769qsx_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535946595 generated at 12/31/2024 12:42:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718353_mq76cmr6_.arc
+ORA-00280: change 108535946595 for thread 1 is in sequence #718353
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718352_mq76b24b_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535954503 generated at 12/31/2024 12:42:51 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718354_mq76fl9o_.arc
+ORA-00280: change 108535954503 for thread 1 is in sequence #718354
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718353_mq76cmr6_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535960650 generated at 12/31/2024 12:43:54 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718355_mq76fvwk_.arc
+ORA-00280: change 108535960650 for thread 1 is in sequence #718355
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718354_mq76fl9o_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535962107 generated at 12/31/2024 12:44:03 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718356_mq76ht8m_.arc
+ORA-00280: change 108535962107 for thread 1 is in sequence #718356
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718355_mq76fvwk_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535968439 generated at 12/31/2024 12:45:05 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718357_mq76jqqh_.arc
+ORA-00280: change 108535968439 for thread 1 is in sequence #718357
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718356_mq76ht8m_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108535983708 generated at 12/31/2024 12:45:35 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718358_mq76k9h7_.arc
+ORA-00280: change 108535983708 for thread 1 is in sequence #718358
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718357_mq76jqqh_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536002660 generated at 12/31/2024 12:45:53 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718359_mq76klz1_.arc
+ORA-00280: change 108536002660 for thread 1 is in sequence #718359
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718358_mq76k9h7_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536019000 generated at 12/31/2024 12:46:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718360_mq76kp66_.arc
+ORA-00280: change 108536019000 for thread 1 is in sequence #718360
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718359_mq76klz1_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536038305 generated at 12/31/2024 12:46:06 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718361_mq76ocqv_.arc
+ORA-00280: change 108536038305 for thread 1 is in sequence #718361
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718360_mq76kp66_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536156273 generated at 12/31/2024 12:48:03 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718362_mq76s2lj_.arc
+ORA-00280: change 108536156273 for thread 1 is in sequence #718362
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718361_mq76ocqv_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536164861 generated at 12/31/2024 12:50:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718363_mq76wsto_.arc
+ORA-00280: change 108536164861 for thread 1 is in sequence #718363
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718362_mq76s2lj_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536172496 generated at 12/31/2024 12:52:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718364_mq770l02_.arc
+ORA-00280: change 108536172496 for thread 1 is in sequence #718364
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718363_mq76wsto_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536234228 generated at 12/31/2024 12:54:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718365_mq773gqr_.arc
+ORA-00280: change 108536234228 for thread 1 is in sequence #718365
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718364_mq770l02_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536278052 generated at 12/31/2024 12:55:34 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718366_mq7749xw_.arc
+ORA-00280: change 108536278052 for thread 1 is in sequence #718366
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718365_mq773gqr_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536310532 generated at 12/31/2024 12:56:01 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718367_mq777ykw_.arc
+ORA-00280: change 108536310532 for thread 1 is in sequence #718367
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718366_mq7749xw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536367739 generated at 12/31/2024 12:57:58 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718368_mq77823k_.arc
+ORA-00280: change 108536367739 for thread 1 is in sequence #718368
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718367_mq777ykw_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536368376 generated at 12/31/2024 12:58:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718369_mq77c7vv_.arc
+ORA-00280: change 108536368376 for thread 1 is in sequence #718369
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718368_mq77823k_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536377832 generated at 12/31/2024 12:59:43 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718370_mq77cvbd_.arc
+ORA-00280: change 108536377832 for thread 1 is in sequence #718370
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718369_mq77c7vv_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536382374 generated at 12/31/2024 13:00:03 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718371_mq77hl1p_.arc
+ORA-00280: change 108536382374 for thread 1 is in sequence #718371
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718370_mq77cvbd_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536448437 generated at 12/31/2024 13:02:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718372_mq77mbjo_.arc
+ORA-00280: change 108536448437 for thread 1 is in sequence #718372
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718371_mq77hl1p_.arc' no longer
+needed for this recovery
+
+
+ORA-00279: change 108536465641 generated at 12/31/2024 13:04:02 needed for
+thread 1
+ORA-00289: suggestion :
+/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718373_%u_.arc
+ORA-00280: change 108536465641 for thread 1 is in sequence #718373
+ORA-00278: log file
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718372_mq77mbjo_.arc' no longer
+needed for this recovery
+
+
+ORA-00308: cannot open archived log
+'/arch/GIN12C/archivelog/2024_12_31/o1_mf_1_718373_%u_.arc'
+ORA-27037: unable to obtain file status
+Linux-x86_64 Error: 2: No such file or directory
+Additional information: 3
+
+
+
+Archive Applied
+-----------------------------------------------------------------------
+Last Archive Sequence Applied: 718372
+
+
+Finished DATE and TIME
+------------------------------
+12-31-2024 13:09:29
+

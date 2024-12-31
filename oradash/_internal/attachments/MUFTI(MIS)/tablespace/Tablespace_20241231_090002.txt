@@ -1,0 +1,38 @@
+
+SQL*Plus: Release 12.1.0.2.0 Production on Tue Dec 31 09:00:08 2024
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+Last Successful login time: Tue Dec 31 2024 08:30:12 +05:30
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+
+********************************************************************************************************************************************************************
+###TABLESPACE INFORMATION START###
+********************************************************************************************************************************************************************
+
+TABLESPACE_NAME        TOTAL_GB    USED_GB    FREE_GB	TMAXSIZE      USED%
+-------------------- ---------- ---------- ---------- ---------- ----------
+GINOLAP 		    298        256	   42	     320	 86
+TEMP			     64 	14	   50	      64	 22
+UNDOTBS1		     43 	43	    0	      64	100
+GIN_TS_SUMMARY		      2 	 0	    2	      32	  0
+SYSTEM			      2 	 1	    1	      32	 50
+GIN_TS_NOLOGGING	      2 	 0	    2	      32	  0
+INDX			      2 	 0	    2	      32	  0
+GIN_TS_TX_DATA		      2 	 0	    2	      32	  0
+SYSAUX			      2 	 2	    0	      32	100
+USERS			      2 	 1	    1	      32	 50
+
+10 rows selected.
+
+
+no rows selected
+
+********************************************************************************************************************************************************************
+###TABLESPACE INFORMATION END###
+********************************************************************************************************************************************************************
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options

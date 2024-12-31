@@ -1,0 +1,293 @@
+PRODUCTION SERVER DISK SPACE START
+***********************************************************************************************************************
+
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                  63G     0   63G   0% /dev
+tmpfs                     63G  4.0K   63G   1% /dev/shm
+tmpfs                     63G  1.2G   62G   2% /run
+tmpfs                     63G     0   63G   0% /sys/fs/cgroup
+/dev/mapper/rhel-root     99G   46G   48G  50% /
+/dev/sdb                 3.5T  658G  2.7T  20% /arch
+/dev/sda2                2.0G  143M  1.7G   8% /boot
+/dev/sda1                1.9G  9.8M  1.9G   1% /boot/efi
+/dev/mapper/rhel-arch    788G  379G  370G  51% /ARCBKP
+/dev/mapper/rhel-u01     3.0T  2.5T  312G  90% /u01
+/dev/mapper/rhel-backup  3.0T  1.6T  1.3T  57% /backup
+tmpfs                     13G  4.0K   13G   1% /run/user/42
+tmpfs                     13G   44K   13G   1% /run/user/1001
+tmpfs                     13G     0   13G   0% /run/user/0
+PRODUCTION SERVER DISK SPACE END
+***********************************************************************************************************************
+BACKUP SERVER DISK SPACE START
+***********************************************************************************************************************
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs                72G     0   72G   0% /dev
+tmpfs                   72G     0   72G   0% /dev/shm
+tmpfs                   72G  202M   72G   1% /run
+tmpfs                   72G     0   72G   0% /sys/fs/cgroup
+/dev/mapper/rhel-root  100G  6.6G   94G   7% /
+/dev/sdb               2.0T  1.6T  305G  85% /backup
+/dev/sda2             1014M  178M  837M  18% /boot
+/dev/sda4             1022M  6.5M 1016M   1% /boot/efi
+/dev/mapper/rhel-arch  795G  658G  137G  83% /arch
+/dev/mapper/rhel-u01   2.1T  1.9T  158G  93% /u01
+tmpfs                   15G   44K   15G   1% /run/user/1001
+/dev/sr0               4.3G  4.3G     0 100% /run/media/oracle/RHEL-7.9 Server.x86_64
+BACKUP SERVER DISK SPACE END
+***********************************************************************************************************************
+PRODUCTION LOAD
+********************************************************************************************************************************************************************
+
+top - 19:30:06 up 21 days,  6:16,  3 users,  load average: 4.08, 2.98, 2.58
+Tasks: 794 total,   5 running, 789 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.7 us,  2.2 sy,  0.0 ni, 89.8 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 13143483+total,  2293180 free,  9850488 used, 11929116+buff/cache
+KiB Swap: 13421772+total, 12309216+free, 11125560 used. 31629684 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 81463 oracle    20   0 1575436  13748   7792 R 112.5  0.0   0:05.53 azcopy
+ 78898 oracle    20   0   60.4g   2.4g   2.4g R 100.0  2.0  11:16.59 oracle_78+
+ 80798 oracle    20   0   38.2g   6.4g   6.2g R 100.0  5.1   2:44.11 ora_j000_+
+ 75148 oracle    20   0   60.6g  10.9g  10.7g R  93.8  8.7   3:31.52 ora_j000_+
+ 81344 oracle    20   0   60.3g 496224 491064 S  43.8  0.4   0:04.15 oracle_81+
+ 18464 oracle    20   0   38.0g  22064  21684 S  12.5  0.0  90:50.05 ora_dbrm_+
+ 81342 oracle    20   0   60.3g 512696 507488 S  12.5  0.4   0:04.74 oracle_81+
+ 81549 oracle    20   0  162548   2708   1528 R  12.5  0.0   0:00.03 top
+ 57192 oracle    20   0   60.3g  60440  60136 S   6.2  0.0 416:54.37 ora_lg00_+
+ 81346 oracle    20   0   60.3g 518836 513572 S   6.2  0.4   0:03.87 oracle_81+
+184443 root      20   0 4201436  27980   5704 S   6.2  0.0 297:26.40 aakore
+     1 root      20   0  191676   3292   1624 S   0.0  0.0 196:06.76 systemd
+     2 root      20   0       0      0      0 S   0.0  0.0   1:45.15 kthreadd
+PRODUCTION LOAD
+********************************************************************************************************************************************************************
+***********************************************************************************************************************
+###LONG RUNNING QUERY FOR MORE THAN ONE MINUTE###
+***********************************************************************************************************************
+
+USERNAME			      SID    SERIAL# MINS_RUNNING
+------------------------------ ---------- ---------- ------------
+SBHO				      103      43783	     3.55
+
+
+USERNAME   SID	 SERIA MINS_RUNNING PROGRAM		 SQL_ID        ADDRESS		TERMINAL	     ACTION		  EVENT 	       LOGON_TIME	    WAIT_CLASS
+---------- ----- ----- ------------ -------------------- ------------- ---------------- -------------------- -------------------- -------------------- -------------------- ---------------
+SBHO	   103	 43783	       3.65 oracle@backmis.style 9rq1rpdfpbrjf 0000000ED55C60A0 UNKNOWN 	     MASTERDATA_ETL_JOB   direct path read tem 08-DEC-2024 19:26:43 User I/O
+
+***********************************************************************************************************************
+###LONG RUNNING QUERY FOR MORE THAN ONE MINUTE###
+***********************************************************************************************************************
+***********************************************************************************************************************
+###LOCKING SESSION###
+***********************************************************************************************************************
+
+no rows selected
+
+
+no rows selected
+
+***********************************************************************************************************************
+###LOCKING SESSION###
+***********************************************************************************************************************
+********************************************************************************************************************************************************************
+###TEMP TABLESPACE###
+********************************************************************************************************************************************************************
+
+TABLESPACE			 MB_TOTAL    MB_USED	MB_FREE
+------------------------------ ---------- ---------- ----------
+TEMP				    10324	   2	  10322
+TEMPNEW 		       119427.953	8618 110809.953
+
+********************************************************************************************************************************************************************
+###TEMP TABLESPACE###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###SESSION USING TEMP###
+********************************************************************************************************************************************************************
+
+SID_SERIAL	USERNAME	OSUSER		     SPID      MODULE			 PROGRAM	    MB_USED TABLESPACE	    STATEMENTS
+--------------- --------------- -------------------- --------- ------------------------- --------------- ---------- --------------- ----------
+100,39480	SBHO		APPSERVER$	     81679     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+1027,56924	SBHO		APPSERVER$	     81765     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+103,43783	SBHO		oracle		     75148     DBMS_SCHEDULER		 oracle@backmis.       8558 TEMPNEW	    3
+1059,6693	SBHO		APPSERVER$	     81768     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+1089,25047	SBHO		APPSERVER$	     81770     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+1314,24313	SBHO		APPSERVER$	     81543     Ginesys.API		 oracle@backmis.	  2 TEMPNEW	    1
+132,55698	SBHO		APPSERVER$	     81677     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+1347,53267	SBHO		APPSERVER$	     81417     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+1444,48103	SBHO		Administrator	     78894     GDS.EventBusRunner.exe	 oracle@backmis.	  4 TEMPNEW	    2
+1445,32695	GININTG 	Administrator	     91825     TOAD 12.9.0.71		 oracle@backmis.	  1 TEMP	    1
+1508,14333	SBHO		APPSERVER$	     81668     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+165,48158	SBHO		APPSERVER$	     81695     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+166,13147	GININTG 	Administrator	     64013     JDBC Thin Client 	 oracle@backmis.	  1 TEMP	    1
+200,55545	SBHO		APPSERVER$	     81697     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+230,61722	SBHO		APPSERVER$	     81699     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+293,1203	SBHO		APPSERVER$	     81701     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+3,22609 	SBHO		APPSERVER$	     81673     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+324,58927	SBHO		APPSERVER$	     81703     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+357,38618	SBHO		APPSERVER$	     81705     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+389,44999	SBHO		APPSERVER$	     81420     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+485,45470	SBHO		APPSERVER$	     81724     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+519,50005	SBHO		APPSERVER$	     81726     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+550,19902	SBHO		APPSERVER$	     81728     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+611,25507	SBHO		APPSERVER$	     81732     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+642,9932	SBHO		APPSERVER$	     81734     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+679,25765	SBHO		APPSERVER$	     81736     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+70,23698	SBHO		APPSERVER$	     81675     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+741,54103	SBHO		APPSERVER$	     81759     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+772,51512	SBHO		APPSERVER$	     81745     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+804,25632	SBHO		APPSERVER$	     81740     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+866,53600	SBHO		Administrator	     59120     TOAD 12.9.0.71		 oracle@backmis.	  2 TEMPNEW	    1
+965,63208	SBHO		APPSERVER$	     81763     DataSync.API		 oracle@backmis.	  2 TEMPNEW	    1
+
+32 rows selected.
+
+********************************************************************************************************************************************************************
+###SESSION USING TEMP###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###UNDO TABLESPACE###
+********************************************************************************************************************************************************************
+
+TABLESPACE_NAME 		   SIZEMB    USAGEMB	 FREEMB
+------------------------------ ---------- ---------- ----------
+UNDOTBS1		       98303.9531	9576 88727.9531
+
+********************************************************************************************************************************************************************
+###SESSION USING UNDO###
+********************************************************************************************************************************************************************
+
+no rows selected
+
+********************************************************************************************************************************************************************
+###UNDO SEGMENT STATUS###
+********************************************************************************************************************************************************************
+
+TABLESPACE_NAME 	       SIZE_MB	       USAGE_MB        FREE_MB
+------------------------------ --------------- --------------- ---------------
+UNDOTBS1		       98303.953125    9584	       88719.953125
+
+
+TABLESPACE		       STATUS	 SUM_IN_MB	 COUNTS
+------------------------------ --------- --------------- ---------------
+UNDOTBS1		       EXPIRED	 1257.6875	 216
+UNDOTBS1		       UNEXPIRED 8326.3125	 644
+
+###UNDO SEGMENT STATUS###
+********************************************************************************************************************************************************************
+###MV LAST REFRESH TIME###
+********************************************************************************************************************************************************************
+
+OWNER		MVIEW_NAME		       LAST_REFRESH_DATE
+--------------- ------------------------------ -------------------
+SBHO		SITE_MV 		       2024-12-08 19:30:02
+SBHO		COST_SHEET_MV		       2024-12-08 19:30:01
+SBHO		INVGRP_MV		       2024-12-08 19:30:02
+SBHO		CONTROL_SL_MV		       2024-12-08 19:30:01
+SBHO		ITEM_MV 		       2024-12-08 19:30:01
+SBHO		ROUTE_MV		       2024-12-08 19:30:02
+SBHO		LEDGER_MV		       2024-12-08 19:30:01
+SBHO		POS_CUSTOMER_MV 	       2024-12-08 19:30:01
+SBHO		PRICE_CHART_MV		       2024-12-08 19:30:02
+SBHO		SALESPERSON_MV		       2024-12-08 19:30:02
+SBHO		COA_MV			       2024-12-08 19:30:01
+SBHO		ADMOU_MV		       2024-12-08 19:30:01
+SBHO		BOM_MV			       2024-12-08 19:30:01
+SBHO		FACT_POS_SALE_DET_MV	       2024-12-08 19:30:01
+SBHO		SITE_DETAIL_MV		       2024-11-19 13:06:18
+
+15 rows selected.
+
+
+OWNER		MVIEW_NAME		       LAST_REFRESH_DATE
+--------------- ------------------------------ -------------------
+SBHO		SITE_DETAIL_MV		       2024-11-19 13:06:18
+
+********************************************************************************************************************************************************************
+###MV LAST REFRESH TIME###
+********************************************************************************************************************************************************************
+###PROGRAM WISE SESSIONS###
+********************************************************************************************************************************************************************
+
+PROGRAM 			    TOTAL_SESSIONS ACTIVE_SESSIONS INACTIVE_SESSIONS
+----------------------------------- -------------- --------------- -----------------
+oracle@backmis.stylebaazar.in (J002		 1		 1		   0
+oracle@backmis.stylebaazar.in (J001		 1		 1		   0
+oracle@backmis.stylebaazar.in (J000		 1		 1		   0
+oracle@backmis.stylebaazar.in (J003		 1		 1		   0
+oracle@backmis.stylebaazar.in (J004		 1		 1		   0
+POSDxDataGatherer.exe				 7		 1		   6
+GDS.EventBusRunner				 1		 1		   0
+sqlplus@backmis.stylebaazar.in (TNS		 1		 1		   0
+oracle@backmis.stylebaazar.in (TNS		 1		 0		   1
+Ginesys.API					 2		 0		   2
+ORACLE.EXE					 1		 0		   1
+DataSync.API					22		 0		  22
+JDBC Thin Client				40		 0		  40
+w3wp.exe					 1		 0		   1
+Toad.exe					 3		 0		   3
+LaunchPad.exe					 2		 0		   2
+LicenseManager.Service.exe			 1		 0		   1
+SMTPMailer.Service.exe				 1		 0		   1
+GDS.EventBusRunner.exe				 1		 0		   1
+GNFS.Service.exe				 1		 0		   1
+Planning.Service.exe				 1		 0		   1
+
+21 rows selected.
+
+********************************************************************************************************************************************************************
+###TOP CPU CONSUMING SESSION(PROGRAM WISE) START###
+********************************************************************************************************************************************************************
+
+      RANK	  SID	 SERIAL# PROGRAM		 CPUMINS LOGON_TIME  ACTION		  EVENT 	       TERMINAL   WAIT_CLASS
+---------- ---------- ---------- -------------------- ---------- ----------- -------------------- -------------------- ---------- ---------------
+	 1	 1380	    4666 JDBC Thin Client	  619.25 26-NOV-2024			  SQL*Net message from unknown	  Idle
+	 2	 1251	   64734 JDBC Thin Client	  375.33 26-NOV-2024			  SQL*Net message from unknown	  Idle
+	 3	  166	   13147 JDBC Thin Client	   339.4 26-NOV-2024			  SQL*Net message from unknown	  Idle
+	 4	 1286	   64188 JDBC Thin Client	  123.15 26-NOV-2024			  SQL*Net message from unknown	  Idle
+	 5	  385	   32172 oracle@backmis.style	   85.66 18-NOV-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 6	 1415	   47688 JDBC Thin Client	    56.7 26-NOV-2024			  SQL*Net message from unknown	  Idle
+	 7	   68	   10769 JDBC Thin Client	   28.44 29-NOV-2024			  SQL*Net message from unknown	  Idle
+	 8	  993	   49247 oracle@backmis.style	   26.96 18-NOV-2024			  rdbms ipc message    UNKNOWN	  Idle
+	 9	  961	    2795 oracle@backmis.style	   25.68 18-NOV-2024			  rdbms ipc message    UNKNOWN	  Idle
+	10	  866	   53600 Toad.exe		   13.49 18-NOV-2024			  SQL*Net message from NAPPSERVER Idle
+
+10 rows selected.
+
+###TOP CPU CONSUMING SESSION(PROGRAM WISE) END###
+********************************************************************************************************************************************************************
+###Today Cube Refresh status START###
+********************************************************************************************************************************************************************
+
+      CODE DATACUBE_CODE  CUBE_CODE START_TIM END_TIME	RUN_DURATI CREATOR		STATUS		   ERROR_REASON
+---------- ------------- ---------- --------- --------- ---------- -------------------- ------------------ ----------------------------------------
+    110586	      21       2035 08-DEC-24 08-DEC-24 00:00:13   Uttam Saha		Refresh completed
+    110585	       4       2007 08-DEC-24 08-DEC-24 00:03:30   Nitin Singhania	Refresh completed
+    110584	      21       2030 08-DEC-24 08-DEC-24 00:18:41   SIBSANKAR SARKAR	Refresh completed
+    110583	      77       2013 08-DEC-24 08-DEC-24 01:03:34   Nitin Singhania	Refresh completed
+    110582	      81       2018 08-DEC-24 08-DEC-24 00:42:54   Amar Kant Singh	Refresh completed
+    110581	      77       2040 08-DEC-24 08-DEC-24 00:51:42   Amar Kant Singh	Refresh completed
+    110580	      22       1958 08-DEC-24 08-DEC-24 00:01:01   Amar Kant Singh	Refresh completed
+    110579	      21       2035 08-DEC-24 08-DEC-24 00:00:31   Soumen Patra 	Refresh completed
+    110578	      28       1976 08-DEC-24 08-DEC-24 00:00:10   Chander Singh	Failed		   Object reference not set to an instance
+    110577	       5       2033 08-DEC-24 08-DEC-24 01:34:03   Chander Singh	Refresh completed
+    110576	      29       1860 08-DEC-24 08-DEC-24 02:07:51   Ginesys		Refresh completed
+
+11 rows selected.
+
+###Today Cube Refresh status END###
+********************************************************************************************************************************************************************
+********************************************************************************************************************************************************************
+###CURRENT ARCHIVE GENERATED###
+********************************************************************************************************************************************************************
+
+DAY	    NUM_ARCHIVES_GENERATED ARCHIVE_SIZE_GB
+----------- ---------------------- ---------------
+2024-12-08		      1200	     51.13
+2024-12-07		      4764	    219.15
+2024-12-06		      3457	    155.92
+2024-12-05		      5003	    231.55
+2024-12-04		      8758	    414.01
+
+********************************************************************************************************************************************************************
+###CURRENT ARCHIVE GENERATED###
+********************************************************************************************************************************************************************
