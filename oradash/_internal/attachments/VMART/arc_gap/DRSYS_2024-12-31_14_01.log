@@ -1,7 +1,0 @@
-
-DR-SYNCSTATUSREPORT:
-####################
-Current Time	    DB					APPLIED_TIME  LOG_ARCHIVED LOG_APPLIED LOG_GAP STATUS
-------------------- ----------------------------------- ------------- ------------ ----------- ------- ---------------
-12-31-2024 14:01:02 PRIMARY DB@GINESYS	  [10.0.0.6 ]	31-DEC/13:58	   1094545     1094544	     1 OK!
-12-31-2024 14:01:02 STANDBY DB@GINESYS_DR [10.0.0.46]	31-DEC/13:58	   1094545     1094544	     1 OK!
